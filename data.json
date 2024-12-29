@@ -1,0 +1,3120 @@
+{
+  "diseases": [
+    {
+      "name": "fever",
+      "description": "A temporary increase in body temperature, often due to an illness.",
+      "precautions": [
+        "Drink plenty of fluids",
+        "Take rest",
+        "Use a cold compress to reduce fever"
+      ],
+      "medications": ["Paracetamol", "Ibuprofen"]
+    },
+    {
+      "name": "cold",
+      "description": "A viral infection of the upper respiratory tract causing symptoms like a runny nose and sore throat.",
+      "precautions": [
+        "Stay hydrated",
+        "Use saline nasal spray",
+        "Rest properly"
+      ],
+      "medications": ["Antihistamines", "Decongestants"]
+    },
+    {
+      "name": "diabetes",
+      "description": "A chronic condition that affects how your body processes blood sugar (glucose).",
+      "precautions": [
+        "Maintain a healthy diet",
+        "Exercise regularly",
+        "Monitor blood sugar levels"
+      ],
+      "medications": ["Metformin", "Insulin"]
+    },
+    {
+      "name": "Abdominal Aortic Aneurysm",
+      "description": "An abdominal aortic aneurysm is a localized enlargement of the abdominal aorta, which can lead to rupture if untreated.",
+      "precautions": [
+        "Avoid smoking and excessive alcohol consumption",
+        "Maintain a healthy weight",
+        "Control blood pressure and cholesterol levels",
+        "Get regular ultrasound checkups if at risk"
+      ],
+      "medications": ["Beta-blockers", "Statins", "Antihypertensive drugs"],
+      "treatment_options": [
+        "Surgical repair",
+        "Endovascular aneurysm repair (EVAR)"
+      ]
+    },
+    {
+      "name": "AIDS",
+      "description": "AIDS is a chronic, potentially life-threatening condition caused by the human immunodeficiency virus (HIV). It severely weakens the immune system, making the body vulnerable to infections and certain cancers.",
+      "precautions": [
+        "Use condoms during sexual activity",
+        "Avoid sharing needles or syringes",
+        "Ensure blood transfusions are from safe, screened sources",
+        "Adhere to antiretroviral therapy (ART) if diagnosed with HIV"
+      ],
+      "medications": [
+        "Antiretroviral drugs (ARVs)",
+        "Tenofovir",
+        "Emtricitabine",
+        "Dolutegravir"
+      ],
+      "treatment_options": [
+        "Combination Antiretroviral Therapy (cART)",
+        "Supportive care for opportunistic infections"
+      ]
+    },
+    {
+      "name": "Acute Lymphoblastic Leukemia",
+      "description": "Acute Lymphoblastic Leukemia (ALL) is a type of cancer of the blood and bone marrow characterized by an excess of immature white blood cells.",
+      "precautions": [
+        "Avoid exposure to infections",
+        "Maintain good hygiene",
+        "Follow a healthy diet during treatment",
+        "Adhere strictly to the prescribed treatment plan"
+      ],
+      "medications": [
+        "Chemotherapy drugs (e.g., methotrexate, vincristine)",
+        "Corticosteroids (e.g., prednisone)",
+        "Targeted therapy drugs"
+      ],
+      "treatment_options": [
+        "Chemotherapy",
+        "Radiation therapy",
+        "Bone marrow transplant"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "description": "A condition in which the force of the blood against the artery walls is consistently too high.",
+      "precautions": [
+        "Reduce salt intake",
+        "Exercise regularly",
+        "Maintain a healthy weight",
+        "Avoid excessive alcohol consumption"
+      ],
+      "medications": [
+        "ACE inhibitors",
+        "Beta-blockers",
+        "Calcium channel blockers"
+      ],
+      "treatment_options": ["Lifestyle changes", "Medication"]
+    },
+    {
+      "name": "Asthma",
+      "description": "A chronic respiratory condition that inflames and narrows the airways, causing difficulty in breathing.",
+      "precautions": [
+        "Avoid allergens and irritants",
+        "Use a humidifier if needed",
+        "Follow the prescribed medication plan"
+      ],
+      "medications": [
+        "Inhaled corticosteroids",
+        "Bronchodilators",
+        "Leukotriene modifiers"
+      ],
+      "treatment_options": [
+        "Inhalers",
+        "Allergy treatment",
+        "Emergency care during severe attacks"
+      ]
+    },
+    {
+      "name": "Migraine",
+      "description": "A neurological condition characterized by intense, debilitating headaches, often accompanied by nausea and sensitivity to light or sound.",
+      "precautions": [
+        "Identify and avoid triggers",
+        "Maintain a regular sleep schedule",
+        "Manage stress effectively"
+      ],
+      "medications": [
+        "Triptans",
+        "Pain relievers (e.g., aspirin, ibuprofen)",
+        "Anti-nausea drugs"
+      ],
+      "treatment_options": ["Preventive medications", "Lifestyle modifications"]
+    },
+    {
+      "name": "Covid",
+      "description": "A contagious respiratory illness caused by the novel coronavirus SARS-CoV-2.",
+      "precautions": [
+        "Wear a mask in crowded places",
+        "Wash hands frequently with soap",
+        "Maintain physical distance from others",
+        "Get vaccinated"
+      ],
+      "medications": [
+        "Antiviral drugs (e.g., remdesivir)",
+        "Supportive care for symptoms"
+      ],
+      "treatment_options": [
+        "Hospitalization for severe cases",
+        "Oxygen therapy",
+        "Ventilation support"
+      ]
+    },
+    {
+      "name": "Acute Flaccid Myelitis",
+      "description": "A rare but serious neurological condition that affects the spinal cord, causing muscle weakness and paralysis.",
+      "precautions": [
+        "Practice good hygiene to avoid infections",
+        "Stay updated on vaccinations",
+        "Seek immediate medical care for sudden muscle weakness"
+      ],
+      "medications": ["Supportive care"],
+      "treatment_options": ["Physical therapy", "Rehabilitation"]
+    },
+    {
+      "name": "Acute Myeloid Leukemia",
+      "description": "A type of cancer that starts in the bone marrow and leads to rapid growth of abnormal white blood cells.",
+      "precautions": [
+        "Avoid infections",
+        "Follow a healthy diet during treatment",
+        "Adhere strictly to the treatment plan"
+      ],
+      "medications": [
+        "Chemotherapy drugs",
+        "Targeted therapy drugs",
+        "Antibiotics for infections"
+      ],
+      "treatment_options": ["Chemotherapy", "Bone marrow transplant"]
+    },
+    {
+      "name": "Addison's Disease",
+      "description": "A disorder in which the adrenal glands do not produce sufficient hormones.",
+      "precautions": [
+        "Maintain a balanced diet",
+        "Avoid stress",
+        "Carry emergency hydrocortisone injections"
+      ],
+      "medications": ["Hydrocortisone", "Fludrocortisone"],
+      "treatment_options": ["Hormone replacement therapy"]
+    },
+    {
+      "name": "Alzheimer's Disease",
+      "description": "A progressive neurological disorder that causes memory loss, confusion, and cognitive decline.",
+      "precautions": [
+        "Engage in regular mental exercises",
+        "Maintain a healthy diet and lifestyle",
+        "Manage cardiovascular risk factors"
+      ],
+      "medications": ["Donepezil", "Rivastigmine", "Memantine"],
+      "treatment_options": ["Supportive care", "Cognitive therapies"]
+    },
+    {
+      "name": "Alsar",
+      "description": "A progressive neurological disease that affects nerve cells in the brain and spinal cord, leading to loss of muscle control.",
+      "precautions": [
+        "Avoid respiratory infections",
+        "Follow physical therapy routines",
+        "Use assistive devices as needed"
+      ],
+      "medications": ["Riluzole", "Edaravone"],
+      "treatment_options": ["Physical therapy", "Speech therapy"]
+    },
+    {
+      "name": "Anemia",
+      "description": "A condition in which the blood lacks sufficient healthy red blood cells or hemoglobin.",
+      "precautions": [
+        "Maintain a diet rich in iron and vitamins",
+        "Avoid excessive tea or coffee consumption",
+        "Monitor hemoglobin levels regularly"
+      ],
+      "medications": ["Iron supplements", "Vitamin B12 injections"],
+      "treatment_options": ["Blood transfusion in severe cases"]
+    },
+    {
+      "name": "Aneurysm",
+      "description": "An abnormal bulge or ballooning in the wall of a blood vessel, which can rupture if untreated.",
+      "precautions": [
+        "Control blood pressure",
+        "Avoid smoking",
+        "Limit alcohol intake"
+      ],
+      "medications": ["Antihypertensive drugs", "Statins"],
+      "treatment_options": ["Surgical clipping", "Endovascular coiling"]
+    },
+    {
+      "name": "Angina Pectoris",
+      "description": "Chest pain or discomfort caused by reduced blood flow to the heart muscle.",
+      "precautions": [
+        "Avoid strenuous activity",
+        "Control cholesterol levels",
+        "Manage stress effectively"
+      ],
+      "medications": ["Nitroglycerin", "Beta-blockers"],
+      "treatment_options": ["Lifestyle modifications", "Coronary angioplasty"]
+    },
+    {
+      "name": "Bacterial Meningitis",
+      "description": "A severe infection of the protective membranes covering the brain and spinal cord caused by bacteria.",
+      "precautions": [
+        "Get vaccinated against meningitis",
+        "Avoid close contact with infected individuals",
+        "Maintain good hygiene practices"
+      ],
+      "medications": ["Antibiotics", "Corticosteroids"],
+      "treatment_options": ["Intravenous antibiotics", "Supportive care"]
+    },
+    {
+      "name": "Bell's Palsy",
+      "description": "A condition causing sudden, temporary weakness or paralysis of facial muscles.",
+      "precautions": [
+        "Protect the eye on the affected side from drying out",
+        "Practice facial exercises",
+        "Seek medical treatment promptly"
+      ],
+      "medications": ["Corticosteroids", "Antiviral drugs"],
+      "treatment_options": ["Physical therapy", "Eye protection"]
+    },
+    {
+      "name": "Bladder Cancer",
+      "description": "A type of cancer that begins in the bladder's inner lining.",
+      "precautions": [
+        "Avoid smoking",
+        "Limit exposure to harmful chemicals",
+        "Stay hydrated"
+      ],
+      "medications": ["Chemotherapy drugs", "Immunotherapy"],
+      "treatment_options": ["Surgery", "Radiation therapy"]
+    },
+    {
+      "name": "Blood Clots",
+      "description": "The formation of clumps of blood that can block blood flow in veins or arteries.",
+      "precautions": [
+        "Stay physically active",
+        "Maintain a healthy weight",
+        "Avoid prolonged periods of inactivity"
+      ],
+      "medications": ["Anticoagulants", "Thrombolytics"],
+      "treatment_options": ["Compression therapy", "Surgical removal"]
+    },
+    {
+      "name": "Bone Cancer",
+      "description": "A rare type of cancer that begins in the bones.",
+      "precautions": [
+        "Avoid radiation exposure",
+        "Maintain good bone health",
+        "Seek early medical evaluation for persistent bone pain"
+      ],
+      "medications": ["Pain relievers", "Chemotherapy drugs"],
+      "treatment_options": ["Surgery", "Radiation therapy"]
+    },
+    {
+      "name": "Borrelia Infection",
+      "description": "A bacterial infection transmitted through tick bites.",
+      "precautions": [
+        "Avoid tick-infested areas",
+        "Use insect repellent",
+        "Wear protective clothing"
+      ],
+      "medications": ["Antibiotics"],
+      "treatment_options": ["Oral or intravenous antibiotics"]
+    },
+    {
+      "name": "Botulism",
+      "description": "A rare but serious illness caused by a toxin that attacks the body's nerves.",
+      "precautions": [
+        "Avoid consuming improperly canned foods",
+        "Practice proper food hygiene",
+        "Get vaccinated against botulism (if at risk)"
+      ],
+      "medications": ["Antitoxins"],
+      "treatment_options": [
+        "Supportive care",
+        "Mechanical ventilation if needed"
+      ]
+    },
+    {
+      "name": "Breast Cancer",
+      "description": "A cancer that forms in the cells of the breasts.",
+      "precautions": [
+        "Perform regular self-exams",
+        "Get routine mammograms",
+        "Maintain a healthy lifestyle"
+      ],
+      "medications": ["Hormone therapy", "Chemotherapy drugs"],
+      "treatment_options": ["Surgery", "Radiation therapy"]
+    },
+    {
+      "name": "Bronchitis",
+      "description": "An inflammation of the bronchial tubes that carry air to and from the lungs.",
+      "precautions": [
+        "Avoid smoking",
+        "Use a humidifier",
+        "Avoid exposure to lung irritants"
+      ],
+      "medications": ["Bronchodilators", "Cough suppressants"],
+      "treatment_options": ["Supportive care", "Pulmonary rehabilitation"]
+    },
+    {
+      "name": "Bulimia Nervosa",
+      "description": "An eating disorder characterized by binge eating followed by purging.",
+      "precautions": [
+        "Seek psychological therapy",
+        "Maintain a balanced diet",
+        "Avoid triggers for binge eating"
+      ],
+      "medications": ["Antidepressants"],
+      "treatment_options": [
+        "Cognitive-behavioral therapy",
+        "Nutritional counseling"
+      ]
+    },
+    {
+      "name": "Candidiasis",
+      "description": "A fungal infection caused by Candida species.",
+      "precautions": [
+        "Maintain proper hygiene",
+        "Avoid excessive use of antibiotics",
+        "Wear loose-fitting clothing"
+      ],
+      "medications": ["Antifungal drugs"],
+      "treatment_options": [
+        "Topical antifungal creams",
+        "Oral antifungal medications"
+      ]
+    },
+    {
+      "name": "Cardiomyopathy",
+      "description": "A disease of the heart muscle that makes it harder for the heart to pump blood.",
+      "precautions": [
+        "Manage risk factors like hypertension and diabetes",
+        "Avoid alcohol and illicit drugs",
+        "Maintain a healthy lifestyle"
+      ],
+      "medications": ["Beta-blockers", "ACE inhibitors"],
+      "treatment_options": [
+        "Implantable devices",
+        "Heart transplant in severe cases"
+      ]
+    },
+    {
+      "name": "Carpal Tunnel Syndrome",
+      "description": "A condition caused by compression of the median nerve in the wrist.",
+      "precautions": [
+        "Avoid repetitive wrist motions",
+        "Take frequent breaks during tasks",
+        "Use ergonomic tools"
+      ],
+      "medications": ["Nonsteroidal anti-inflammatory drugs (NSAIDs)"],
+      "treatment_options": ["Wrist splints", "Surgery in severe cases"]
+    },
+    {
+      "name": "Cat Scratch Fever",
+      "description": "An infection caused by bacteria transmitted through cat scratches or bites.",
+      "precautions": [
+        "Avoid rough play with cats",
+        "Clean scratches and bites promptly",
+        "Keep pets' nails trimmed"
+      ],
+      "medications": ["Antibiotics"],
+      "treatment_options": ["Supportive care"]
+    },
+    {
+      "name": "Celiac Disease",
+      "description": "An autoimmune disorder triggered by the consumption of gluten.",
+      "precautions": [
+        "Adhere to a strict gluten-free diet",
+        "Read food labels carefully",
+        "Consult a dietitian"
+      ],
+      "medications": ["Vitamin and mineral supplements"],
+      "treatment_options": ["Dietary management"]
+    },
+    {
+      "name": "Cervical Cancer",
+      "description": "A type of cancer that occurs in the cells of the cervix.",
+      "precautions": [
+        "Get HPV vaccination",
+        "Practice safe sex",
+        "Get regular Pap tests"
+      ],
+      "medications": ["Chemotherapy drugs"],
+      "treatment_options": ["Surgery", "Radiation therapy"]
+    },
+    {
+      "name": "Chickenpox",
+      "description": "A highly contagious viral infection causing an itchy rash and red spots or blisters.",
+      "precautions": [
+        "Get vaccinated",
+        "Avoid close contact with infected individuals",
+        "Practice good hygiene"
+      ],
+      "medications": ["Antiviral drugs"],
+      "treatment_options": ["Supportive care"]
+    },
+    {
+      "name": "Chlamydia",
+      "description": "A common sexually transmitted infection caused by bacteria.",
+      "precautions": [
+        "Practice safe sex",
+        "Get regular screenings",
+        "Ensure both partners are treated"
+      ],
+      "medications": ["Antibiotics"],
+      "treatment_options": ["Oral antibiotics"]
+    },
+    {
+      "name": "Chronic Fatigue Syndrome",
+      "description": "A complex disorder characterized by extreme fatigue that doesn't improve with rest.",
+      "precautions": [
+        "Maintain a balanced lifestyle",
+        "Manage stress",
+        "Get regular, light exercise"
+      ],
+      "medications": ["Pain relievers", "Antidepressants"],
+      "treatment_options": [
+        "Cognitive-behavioral therapy",
+        "Graded exercise therapy"
+      ]
+    },
+    {
+      "name": "Kidney Disease",
+      "description": "A long-term condition where the kidneys don't function as well as they should.",
+      "precautions": [
+        "Control blood pressure and diabetes",
+        "Avoid NSAIDs",
+        "Stay hydrated"
+      ],
+      "medications": ["ACE inhibitors", "Diuretics"],
+      "treatment_options": ["Dialysis", "Kidney transplant"]
+    },
+    {
+      "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "description": "A chronic inflammatory lung disease that obstructs airflow from the lungs.",
+      "precautions": [
+        "Avoid smoking and pollutants",
+        "Get vaccinated for flu and pneumonia",
+        "Practice breathing exercises"
+      ],
+      "medications": ["Bronchodilators", "Corticosteroids"],
+      "treatment_options": ["Pulmonary rehabilitation", "Oxygen therapy"]
+    },
+    {
+      "name": "Cirrhosis",
+      "description": "A late stage of scarring (fibrosis) of the liver caused by many forms of liver diseases and conditions.",
+      "precautions": [
+        "Avoid alcohol",
+        "Follow a healthy diet",
+        "Get vaccinated against hepatitis"
+      ],
+      "medications": ["Diuretics", "Beta-blockers"],
+      "treatment_options": ["Liver transplant"]
+    },
+    {
+      "name": "Clostridium Difficile Infection",
+      "description": "A bacterial infection causing severe diarrhea and colitis.",
+      "precautions": [
+        "Practice good hand hygiene",
+        "Avoid unnecessary antibiotics",
+        "Clean surfaces thoroughly"
+      ],
+      "medications": ["Antibiotics (vancomycin, fidaxomicin)"],
+      "treatment_options": ["Fecal microbiota transplant"]
+    },
+    {
+      "name": "Colorectal Cancer",
+      "description": "A cancer that starts in the colon or rectum.",
+      "precautions": [
+        "Get regular screenings",
+        "Maintain a high-fiber diet",
+        "Limit alcohol consumption and smoking"
+      ],
+      "medications": ["Chemotherapy drugs"],
+      "treatment_options": ["Surgery", "Radiation therapy"]
+    },
+    {
+      "name": "Congestive Heart Failure",
+      "description": "A chronic condition where the heart doesn't pump blood as well as it should.",
+      "precautions": [
+        "Reduce salt intake",
+        "Maintain a healthy weight",
+        "Follow prescribed medications"
+      ],
+      "medications": ["Diuretics", "ACE inhibitors", "Beta-blockers"],
+      "treatment_options": ["Lifestyle changes", "Surgery in severe cases"]
+    },
+    {
+      "name": "Conjunctivitis",
+      "description": "An inflammation or infection of the outer membrane of the eyeball and the inner eyelid.",
+      "precautions": [
+        "Avoid touching your eyes",
+        "Wash hands frequently",
+        "Avoid sharing personal items like towels"
+      ],
+      "medications": ["Antibiotic eye drops", "Antihistamines"],
+      "treatment_options": ["Cool compresses", "Supportive care"]
+    },
+    {
+      "name": "Coronary Artery Disease",
+      "description": "A condition where the arteries supplying blood to the heart become hardened or narrowed.",
+      "precautions": [
+        "Exercise regularly",
+        "Maintain a heart-healthy diet",
+        "Avoid smoking"
+      ],
+      "medications": ["Statins", "Aspirin", "Beta-blockers"],
+      "treatment_options": ["Angioplasty", "Coronary artery bypass surgery"]
+    },
+    {
+      "name": "Crohn's Disease",
+      "description": "A chronic inflammatory bowel disease that affects the lining of the digestive tract.",
+      "precautions": ["Avoid trigger foods", "Manage stress", "Stay hydrated"],
+      "medications": ["Anti-inflammatory drugs", "Immunosuppressants"],
+      "treatment_options": ["Surgery in severe cases", "Nutritional therapy"]
+    },
+    {
+      "name": "Cystic Fibrosis",
+      "description": "A genetic disorder that affects the lungs and digestive system.",
+      "precautions": [
+        "Avoid respiratory infections",
+        "Perform regular chest physiotherapy",
+        "Stay hydrated"
+      ],
+      "medications": ["Mucolytics", "Antibiotics"],
+      "treatment_options": [
+        "Airway clearance techniques",
+        "Lung transplant in severe cases"
+      ]
+    },
+    {
+      "name": "Cytomegalovirus Infection",
+      "description": "A common virus that can infect people of all ages, often asymptomatic but can cause severe issues in immunocompromised individuals.",
+      "precautions": [
+        "Practice good hand hygiene",
+        "Avoid close contact with infected individuals",
+        "Use safe sex practices"
+      ],
+      "medications": ["Antiviral drugs"],
+      "treatment_options": ["Supportive care"]
+    },
+    {
+      "name": "Dengue Fever",
+      "description": "A mosquito-borne viral infection causing flu-like symptoms.",
+      "precautions": [
+        "Use mosquito repellent",
+        "Wear protective clothing",
+        "Eliminate standing water"
+      ],
+      "medications": ["Pain relievers (avoid NSAIDs)"],
+      "treatment_options": ["Hydration", "Supportive care"]
+    },
+    {
+      "name": "Depression",
+      "description": "A common mental health disorder characterized by persistent sadness and loss of interest.",
+      "precautions": [
+        "Seek professional help",
+        "Maintain a routine",
+        "Engage in physical activity"
+      ],
+      "medications": ["Antidepressants"],
+      "treatment_options": ["Cognitive-behavioral therapy", "Psychotherapy"]
+    },
+    {
+      "name": "Diabetes Mellitus Type 1",
+      "description": "An autoimmune disease where the pancreas produces little or no insulin.",
+      "precautions": [
+        "Monitor blood sugar levels regularly",
+        "Follow a balanced diet",
+        "Exercise regularly"
+      ],
+      "medications": ["Insulin"],
+      "treatment_options": ["Blood sugar management", "Dietary planning"]
+    },
+    {
+      "name": "Diabetes Mellitus Type 2",
+      "description": "A chronic condition that affects the way the body processes blood sugar (glucose).",
+      "precautions": [
+        "Maintain a healthy weight",
+        "Follow a balanced diet",
+        "Exercise regularly"
+      ],
+      "medications": ["Metformin", "Insulin"],
+      "treatment_options": ["Lifestyle changes", "Medication management"]
+    },
+    {
+      "name": "Diabetic Ketoacidosis",
+      "description": "A serious complication of diabetes that occurs when the body produces high levels of blood acids (ketones).",
+      "precautions": [
+        "Monitor blood sugar levels",
+        "Seek immediate medical attention for symptoms",
+        "Follow insulin therapy as prescribed"
+      ],
+      "medications": ["Insulin", "Fluids and electrolytes"],
+      "treatment_options": ["Hospitalization", "Intensive care"]
+    },
+    {
+      "name": "Digestive Disorders",
+      "description": "A broad range of conditions affecting the gastrointestinal tract.",
+      "precautions": [
+        "Maintain a balanced diet",
+        "Avoid trigger foods",
+        "Stay hydrated"
+      ],
+      "medications": ["Antacids", "Probiotics"],
+      "treatment_options": [
+        "Dietary management",
+        "Surgical intervention in severe cases"
+      ]
+    },
+    {
+      "name": "Diphtheria",
+      "description": "A serious bacterial infection affecting the mucous membranes of the throat and nose.",
+      "precautions": [
+        "Get vaccinated",
+        "Avoid close contact with infected individuals",
+        "Practice good hygiene"
+      ],
+      "medications": ["Antibiotics", "Diphtheria antitoxin"],
+      "treatment_options": ["Supportive care", "Hospitalization"]
+    },
+    {
+      "name": "Diverticulitis",
+      "description": "An inflammation or infection in one or more small pouches in the digestive tract.",
+      "precautions": [
+        "Maintain a high-fiber diet",
+        "Stay hydrated",
+        "Avoid straining during bowel movements"
+      ],
+      "medications": ["Antibiotics", "Pain relievers"],
+      "treatment_options": ["Surgery in severe cases", "Dietary management"]
+    },
+    {
+      "name": "Down Syndrome",
+      "description": "A genetic disorder caused by the presence of an extra chromosome 21.",
+      "precautions": [
+        "Provide early intervention therapies",
+        "Regular health check-ups",
+        "Support educational needs"
+      ],
+      "medications": ["Symptomatic management"],
+      "treatment_options": [
+        "Supportive care",
+        "Therapies for developmental delays"
+      ]
+    },
+    {
+      "name": "Drowning",
+      "description": "Injury or death caused by suffocation from submersion in liquid.",
+      "precautions": [
+        "Supervise children near water",
+        "Learn swimming and water safety",
+        "Use life jackets"
+      ],
+      "medications": ["Supportive medications"],
+      "treatment_options": ["CPR", "Hospitalization"]
+    },
+    {
+      "name": "Coli Infection",
+      "description": "A bacterial infection often causing diarrhea and stomach cramps.",
+      "precautions": [
+        "Cook food thoroughly",
+        "Avoid cross-contamination in the kitchen",
+        "Practice good hand hygiene"
+      ],
+      "medications": ["Antibiotics (if prescribed)"],
+      "treatment_options": ["Hydration", "Supportive care"]
+    },
+    {
+      "name": "Eczema",
+      "description": "A condition that makes the skin red, itchy, and inflamed.",
+      "precautions": [
+        "Avoid irritants and allergens",
+        "Moisturize skin regularly",
+        "Use gentle skin care products"
+      ],
+      "medications": ["Topical corticosteroids", "Antihistamines"],
+      "treatment_options": ["Phototherapy", "Lifestyle modifications"]
+    },
+    {
+      "name": "Endometrial Cancer",
+      "description": "A type of cancer that begins in the lining of the uterus.",
+      "precautions": [
+        "Maintain a healthy weight",
+        "Manage risk factors like diabetes",
+        "Get regular screenings"
+      ],
+      "medications": ["Hormone therapy", "Chemotherapy drugs"],
+      "treatment_options": ["Surgery", "Radiation therapy"]
+    },
+    {
+      "name": "Endocarditis",
+      "description": "An infection of the inner lining of the heart chambers and valves.",
+      "precautions": [
+        "Maintain good oral hygiene",
+        "Avoid intravenous drug use",
+        "Take prophylactic antibiotics before dental procedures (if at risk)"
+      ],
+      "medications": ["Antibiotics"],
+      "treatment_options": ["Surgery in severe cases"]
+    },
+    {
+      "name": "Epilepsy",
+      "description": "A neurological disorder characterized by recurrent seizures.",
+      "precautions": [
+        "Avoid known seizure triggers",
+        "Take medications as prescribed",
+        "Get sufficient sleep"
+      ],
+      "medications": ["Antiepileptic drugs"],
+      "treatment_options": [
+        "Surgical intervention in severe cases",
+        "Vagus nerve stimulation"
+      ]
+    },
+    {
+      "name": "Esophageal Cancer",
+      "description": "A cancer that occurs in the esophagus, the tube connecting the throat to the stomach.",
+      "precautions": [
+        "Avoid smoking and alcohol",
+        "Maintain a healthy diet",
+        "Get screened for Barrett's esophagus (if at risk)"
+      ],
+      "medications": ["Chemotherapy drugs"],
+      "treatment_options": ["Surgery", "Radiation therapy"]
+    },
+    {
+      "name": "Fibromyalgia",
+      "description": "A chronic disorder causing widespread pain, fatigue, and tenderness in localized areas.",
+      "precautions": [
+        "Engage in regular exercise",
+        "Manage stress effectively",
+        "Get adequate sleep"
+      ],
+      "medications": ["Pain relievers", "Antidepressants"],
+      "treatment_options": ["Physical therapy", "Cognitive-behavioral therapy"]
+    },
+    {
+      "name": "Gastroesophageal Reflux Disease (GERD)",
+      "description": "A digestive disorder where stomach acid frequently flows back into the esophagus.",
+      "precautions": [
+        "Avoid large meals",
+        "Limit spicy and acidic foods",
+        "Elevate the head while sleeping"
+      ],
+      "medications": ["Antacids", "Proton pump inhibitors"],
+      "treatment_options": ["Lifestyle changes", "Surgery in severe cases"]
+    },
+    {
+      "name": "Gastroenteritis",
+      "description": "An intestinal infection causing diarrhea, cramps, nausea, and vomiting.",
+      "precautions": [
+        "Wash hands frequently",
+        "Avoid contaminated food and water",
+        "Stay hydrated"
+      ],
+      "medications": ["Rehydration solutions", "Antiemetics"],
+      "treatment_options": ["Supportive care", "Dietary adjustments"]
+    },
+    {
+      "name": "Glaucoma",
+      "description": "A group of eye conditions that damage the optic nerve, often due to high eye pressure.",
+      "precautions": [
+        "Get regular eye exams",
+        "Maintain a healthy lifestyle",
+        "Use prescribed eye drops"
+      ],
+      "medications": ["Beta-blockers", "Prostaglandin analogs"],
+      "treatment_options": ["Laser therapy", "Surgery"]
+    },
+    {
+      "name": "Gout",
+      "description": "A form of arthritis characterized by severe pain, redness, and tenderness in joints.",
+      "precautions": [
+        "Avoid purine-rich foods",
+        "Limit alcohol consumption",
+        "Stay hydrated"
+      ],
+      "medications": ["NSAIDs", "Colchicine"],
+      "treatment_options": ["Lifestyle changes", "Medication management"]
+    },
+    {
+      "name": "Graves' Disease",
+      "description": "An autoimmune disorder leading to overproduction of thyroid hormones (hyperthyroidism).",
+      "precautions": [
+        "Avoid iodine-rich foods",
+        "Get regular thyroid check-ups",
+        "Manage stress effectively"
+      ],
+      "medications": ["Antithyroid drugs", "Beta-blockers"],
+      "treatment_options": ["Radioactive iodine therapy", "Surgery"]
+    },
+    {
+      "name": "Guillain-Barré Syndrome",
+      "description": "A rare neurological disorder where the body's immune system attacks the nerves.",
+      "precautions": [
+        "Seek immediate medical attention for symptoms",
+        "Follow rehabilitation therapy",
+        "Stay informed about vaccinations"
+      ],
+      "medications": ["Immunoglobulin therapy", "Plasmapheresis"],
+      "treatment_options": ["Supportive care", "Physical therapy"]
+    },
+    {
+      "name": "Hand, Foot, and Mouth Disease",
+      "description": "A contagious viral illness common in children, causing sores in the mouth and a rash on the hands and feet.",
+      "precautions": [
+        "Wash hands frequently",
+        "Avoid close contact with infected individuals",
+        "Disinfect common surfaces"
+      ],
+      "medications": ["Pain relievers", "Topical ointments"],
+      "treatment_options": ["Supportive care", "Hydration"]
+    },
+    {
+      "name": "Hashimoto's Thyroiditis",
+      "description": "An autoimmune disorder causing hypothyroidism due to thyroid inflammation.",
+      "precautions": [
+        "Monitor thyroid hormone levels",
+        "Maintain a balanced diet",
+        "Avoid excessive iodine intake"
+      ],
+      "medications": ["Levothyroxine"],
+      "treatment_options": ["Hormone replacement therapy", "Regular monitoring"]
+    },
+    {
+      "name": "Heart Attack",
+      "description": "A blockage of blood flow to the heart muscle.",
+      "precautions": [
+        "Manage cholesterol levels",
+        "Avoid smoking",
+        "Exercise regularly"
+      ],
+      "medications": ["Aspirin", "Thrombolytics"],
+      "treatment_options": ["Angioplasty", "Coronary bypass surgery"]
+    },
+    {
+      "name": "Heart Disease",
+      "description": "A range of conditions affecting the heart, including coronary artery disease and arrhythmias.",
+      "precautions": [
+        "Follow a heart-healthy diet",
+        "Exercise regularly",
+        "Avoid tobacco"
+      ],
+      "medications": ["Beta-blockers", "Statins"],
+      "treatment_options": ["Lifestyle changes", "Surgical interventions"]
+    },
+    {
+      "name": "Hemophilia",
+      "description": "A rare bleeding disorder where the blood doesn't clot normally.",
+      "precautions": [
+        "Avoid injury",
+        "Use protective gear",
+        "Get regular check-ups"
+      ],
+      "medications": ["Clotting factor replacement therapy"],
+      "treatment_options": [
+        "Preventive care",
+        "Emergency care for bleeding episodes"
+      ]
+    },
+    {
+      "name": "Hepatitis A",
+      "description": "A viral liver infection spread through contaminated food and water.",
+      "precautions": [
+        "Get vaccinated",
+        "Practice good hygiene",
+        "Avoid contaminated food and water"
+      ],
+      "medications": ["Supportive care"],
+      "treatment_options": ["Rest", "Hydration"]
+    },
+    {
+      "name": "Hepatitis B",
+      "description": "A viral liver infection that can cause chronic disease and liver damage.",
+      "precautions": [
+        "Get vaccinated",
+        "Practice safe sex",
+        "Avoid sharing needles"
+      ],
+      "medications": ["Antiviral drugs"],
+      "treatment_options": [
+        "Lifestyle management",
+        "Liver transplantation in severe cases"
+      ]
+    },
+    {
+      "name": "Hepatitis C",
+      "description": "A viral infection causing liver inflammation and damage.",
+      "precautions": [
+        "Avoid sharing needles",
+        "Practice safe sex",
+        "Screen blood donations"
+      ],
+      "medications": ["Direct-acting antivirals"],
+      "treatment_options": ["Antiviral therapy", "Lifestyle changes"]
+    },
+    {
+      "name": "Herpes Simplex Virus",
+      "description": "A viral infection causing sores, typically around the mouth or genitals.",
+      "precautions": [
+        "Avoid direct contact during outbreaks",
+        "Use barrier protection",
+        "Manage stress"
+      ],
+      "medications": ["Antiviral drugs"],
+      "treatment_options": ["Symptomatic management", "Lifestyle adjustments"]
+    },
+    {
+      "name": "High Blood Pressure (Hypertension)",
+      "description": "A chronic condition where the force of blood against artery walls is too high.",
+      "precautions": [
+        "Reduce salt intake",
+        "Exercise regularly",
+        "Avoid tobacco and alcohol"
+      ],
+      "medications": ["ACE inhibitors", "Beta-blockers"],
+      "treatment_options": ["Lifestyle changes", "Medication management"]
+    },
+    {
+      "name": "HIV/AIDS",
+      "description": "A viral infection that attacks the immune system, potentially leading to AIDS.",
+      "precautions": [
+        "Use barrier protection during intercourse",
+        "Avoid sharing needles",
+        "Adhere to antiretroviral therapy"
+      ],
+      "medications": ["Antiretroviral drugs"],
+      "treatment_options": ["Supportive care", "Regular monitoring"]
+    },
+    {
+      "name": "Hodgkin's Lymphoma",
+      "description": "A cancer of the lymphatic system.",
+      "precautions": [
+        "Follow treatment plans",
+        "Maintain a healthy diet",
+        "Get regular screenings"
+      ],
+      "medications": ["Chemotherapy", "Radiation therapy"],
+      "treatment_options": ["Stem cell transplant", "Immunotherapy"]
+    },
+    {
+      "name": "Hyperthyroidism",
+      "description": "A condition where the thyroid gland produces too much thyroid hormone.",
+      "precautions": [
+        "Avoid excessive iodine",
+        "Monitor thyroid levels",
+        "Manage stress"
+      ],
+      "medications": ["Antithyroid drugs", "Beta-blockers"],
+      "treatment_options": ["Radioactive iodine therapy", "Surgery"]
+    },
+    {
+      "name": "Hypothyroidism",
+      "description": "A condition where the thyroid gland doesn't produce enough thyroid hormone.",
+      "precautions": [
+        "Monitor thyroid levels regularly",
+        "Maintain a balanced diet",
+        "Avoid excessive soy intake"
+      ],
+      "medications": ["Levothyroxine"],
+      "treatment_options": ["Hormone replacement therapy", "Regular monitoring"]
+    },
+    {
+      "name": "Influenza",
+      "description": "A contagious respiratory illness caused by influenza viruses.",
+      "precautions": [
+        "Get vaccinated annually",
+        "Wash hands frequently",
+        "Avoid close contact with sick individuals"
+      ],
+      "medications": ["Antiviral drugs"],
+      "treatment_options": ["Rest", "Hydration"]
+    },
+    {
+      "name": "Inflammatory Bowel Disease",
+      "description": "A group of disorders causing chronic inflammation in the digestive tract.",
+      "precautions": [
+        "Avoid trigger foods",
+        "Manage stress",
+        "Follow a balanced diet"
+      ],
+      "medications": ["Anti-inflammatory drugs", "Immunosuppressants"],
+      "treatment_options": ["Surgery in severe cases", "Dietary management"]
+    },
+    {
+      "name": "Insomnia",
+      "description": "A sleep disorder characterized by difficulty falling or staying asleep.",
+      "precautions": [
+        "Maintain a consistent sleep schedule",
+        "Avoid caffeine and heavy meals before bed",
+        "Practice relaxation techniques"
+      ],
+      "medications": ["Sleep aids", "Melatonin"],
+      "treatment_options": [
+        "Cognitive-behavioral therapy",
+        "Lifestyle adjustments"
+      ]
+    },
+    {
+      "name": "Irritable Bowel Syndrome (IBS)",
+      "description": "A common disorder affecting the large intestine, causing abdominal pain, bloating, and altered bowel habits.",
+      "precautions": [
+        "Avoid trigger foods",
+        "Eat smaller meals",
+        "Manage stress effectively"
+      ],
+      "medications": ["Antispasmodics", "Laxatives"],
+      "treatment_options": ["Dietary changes", "Cognitive-behavioral therapy"]
+    },
+    {
+      "name": "Kidney Cancer",
+      "description": "A type of cancer originating in the kidneys.",
+      "precautions": [
+        "Avoid smoking",
+        "Maintain a healthy weight",
+        "Stay hydrated"
+      ],
+      "medications": ["Targeted therapy drugs", "Immunotherapy"],
+      "treatment_options": ["Surgery", "Radiation therapy"]
+    },
+    {
+      "name": "Kidney Stones",
+      "description": "Hard mineral and salt deposits that form in the kidneys, often causing severe pain.",
+      "precautions": [
+        "Drink plenty of fluids",
+        "Limit salt and oxalate-rich foods",
+        "Maintain a balanced diet"
+      ],
+      "medications": ["Pain relievers", "Alpha blockers"],
+      "treatment_options": ["Lithotripsy", "Surgical removal"]
+    },
+    {
+      "name": "Lead Poisoning",
+      "description": "A condition caused by exposure to high levels of lead, leading to health issues.",
+      "precautions": [
+        "Avoid lead-based paints and materials",
+        "Ensure clean drinking water",
+        "Practice good hygiene"
+      ],
+      "medications": ["Chelation therapy"],
+      "treatment_options": ["Remove source of lead", "Supportive care"]
+    },
+    {
+      "name": "Legionnaires' Disease",
+      "description": "A severe form of pneumonia caused by Legionella bacteria.",
+      "precautions": [
+        "Maintain clean water systems",
+        "Avoid contaminated aerosols",
+        "Follow regular maintenance of air conditioning systems"
+      ],
+      "medications": ["Antibiotics"],
+      "treatment_options": ["Hospital care", "Oxygen therapy"]
+    },
+    {
+      "name": "Leptospirosis",
+      "description": "A bacterial infection spread through water contaminated with animal urine.",
+      "precautions": [
+        "Avoid swimming in contaminated water",
+        "Wear protective clothing",
+        "Practice good hygiene"
+      ],
+      "medications": ["Antibiotics"],
+      "treatment_options": ["Supportive care", "Hydration therapy"]
+    },
+    {
+      "name": "Leukemia",
+      "description": "A type of cancer affecting blood-forming tissues, including the bone marrow and lymphatic system.",
+      "precautions": [
+        "Avoid exposure to harmful chemicals",
+        "Maintain a healthy lifestyle",
+        "Follow regular medical check-ups"
+      ],
+      "medications": ["Chemotherapy drugs"],
+      "treatment_options": ["Bone marrow transplant", "Targeted therapy"]
+    },
+    {
+      "name": "Liver Cancer",
+      "description": "A type of cancer that begins in the liver.",
+      "precautions": [
+        "Avoid excessive alcohol consumption",
+        "Get vaccinated for hepatitis B",
+        "Maintain a healthy weight"
+      ],
+      "medications": ["Targeted therapy drugs"],
+      "treatment_options": ["Surgery", "Liver transplantation"]
+    },
+    {
+      "name": "Lung Cancer",
+      "description": "A type of cancer that begins in the lungs, often caused by smoking.",
+      "precautions": [
+        "Avoid smoking and secondhand smoke",
+        "Limit exposure to carcinogens",
+        "Maintain a healthy lifestyle"
+      ],
+      "medications": ["Chemotherapy drugs", "Immunotherapy"],
+      "treatment_options": ["Surgery", "Radiation therapy"]
+    },
+    {
+      "name": "Lupus",
+      "description": "An autoimmune disease where the immune system attacks its own tissues.",
+      "precautions": [
+        "Avoid sun exposure",
+        "Manage stress",
+        "Follow a healthy diet"
+      ],
+      "medications": ["Corticosteroids", "Immunosuppressants"],
+      "treatment_options": ["Lifestyle changes", "Regular monitoring"]
+    },
+    {
+      "name": "Lyme Disease",
+      "description": "A bacterial infection transmitted through tick bites.",
+      "precautions": [
+        "Use insect repellent",
+        "Wear protective clothing",
+        "Check for ticks after outdoor activities"
+      ],
+      "medications": ["Antibiotics"],
+      "treatment_options": ["Early treatment", "Supportive care"]
+    },
+    {
+      "name": "Malaria",
+      "description": "A mosquito-borne disease caused by Plasmodium parasites.",
+      "precautions": [
+        "Use mosquito nets",
+        "Take antimalarial medications",
+        "Avoid mosquito bites"
+      ],
+      "medications": ["Chloroquine", "Artemisinin-based therapies"],
+      "treatment_options": ["Antimalarial treatment", "Supportive care"]
+    },
+    {
+      "name": "Meningitis",
+      "description": "Inflammation of the protective membranes covering the brain and spinal cord.",
+      "precautions": [
+        "Get vaccinated",
+        "Practice good hygiene",
+        "Avoid close contact with infected individuals"
+      ],
+      "medications": ["Antibiotics", "Antiviral drugs"],
+      "treatment_options": ["Hospital care", "Supportive treatment"]
+    },
+    {
+      "name": "Metabolic Syndrome",
+      "description": "A cluster of conditions increasing the risk of heart disease, stroke, and diabetes.",
+      "precautions": [
+        "Maintain a healthy weight",
+        "Exercise regularly",
+        "Follow a balanced diet"
+      ],
+      "medications": [
+        "Cholesterol-lowering drugs",
+        "Blood pressure medications"
+      ],
+      "treatment_options": ["Lifestyle changes", "Medication management"]
+    },
+    {
+      "name": "Multiple Myeloma",
+      "description": "A cancer of plasma cells that weakens bones and the immune system.",
+      "precautions": [
+        "Follow a healthy diet",
+        "Stay active",
+        "Avoid infections"
+      ],
+      "medications": ["Chemotherapy", "Steroids"],
+      "treatment_options": ["Bone marrow transplant", "Targeted therapy"]
+    },
+    {
+      "name": "Muscular Dystrophy",
+      "description": "A group of diseases causing progressive weakness and loss of muscle mass.",
+      "precautions": [
+        "Engage in physical therapy",
+        "Maintain a healthy diet",
+        "Use assistive devices"
+      ],
+      "medications": ["Corticosteroids"],
+      "treatment_options": ["Physical therapy", "Surgical interventions"]
+    },
+    {
+      "name": "Myasthenia Gravis",
+      "description": "A chronic autoimmune disorder causing muscle weakness.",
+      "precautions": [
+        "Avoid strenuous activities",
+        "Manage stress",
+        "Follow a healthy lifestyle"
+      ],
+      "medications": ["Anticholinesterase agents", "Immunosuppressants"],
+      "treatment_options": ["Plasmapheresis", "Thymectomy"]
+    },
+    {
+      "name": "Narcolepsy",
+      "description": "A chronic sleep disorder characterized by overwhelming daytime drowsiness and sudden attacks of sleep.",
+      "precautions": [
+        "Maintain a regular sleep schedule",
+        "Avoid heavy meals before bedtime",
+        "Create a safe environment to avoid injury during sudden sleep episodes"
+      ],
+      "medications": ["Stimulants", "Antidepressants"],
+      "treatment_options": ["Medication management", "Lifestyle changes"]
+    },
+    {
+      "name": "Nephritis",
+      "description": "Inflammation of the kidneys, which can impair their function.",
+      "precautions": [
+        "Avoid nephrotoxic drugs",
+        "Follow a kidney-friendly diet",
+        "Stay hydrated"
+      ],
+      "medications": ["Corticosteroids", "Immunosuppressants"],
+      "treatment_options": ["Lifestyle adjustments", "Dialysis in severe cases"]
+    },
+    {
+      "name": "Neurofibromatosis",
+      "description": "A genetic disorder causing tumors to form on nerve tissue.",
+      "precautions": [
+        "Regular monitoring by specialists",
+        "Maintain a healthy lifestyle",
+        "Avoid injury to affected areas"
+      ],
+      "medications": ["Pain relievers"],
+      "treatment_options": ["Surgery", "Radiation therapy for tumors"]
+    },
+    {
+      "name": "Non-Hodgkin Lymphoma",
+      "description": "A cancer of the lymphatic system that can spread to other organs.",
+      "precautions": [
+        "Follow a healthy diet",
+        "Avoid infections",
+        "Adhere to treatment protocols"
+      ],
+      "medications": ["Chemotherapy", "Targeted therapy"],
+      "treatment_options": ["Stem cell transplant", "Immunotherapy"]
+    },
+    {
+      "name": "Irritable Bowel Syndrome (IBS)",
+      "description": "A common disorder affecting the large intestine, causing abdominal pain, bloating, and altered bowel habits.",
+      "precautions": [
+        "Avoid trigger foods",
+        "Eat smaller meals",
+        "Manage stress effectively"
+      ],
+      "medications": ["Antispasmodics", "Laxatives"],
+      "treatment_options": ["Dietary changes", "Cognitive-behavioral therapy"]
+    },
+    {
+      "name": "Kidney Cancer",
+      "description": "A type of cancer originating in the kidneys.",
+      "precautions": [
+        "Avoid smoking",
+        "Maintain a healthy weight",
+        "Stay hydrated"
+      ],
+      "medications": ["Targeted therapy drugs", "Immunotherapy"],
+      "treatment_options": ["Surgery", "Radiation therapy"]
+    },
+    {
+      "name": "Kidney Stones",
+      "description": "Hard mineral and salt deposits that form in the kidneys, often causing severe pain.",
+      "precautions": [
+        "Drink plenty of fluids",
+        "Limit salt and oxalate-rich foods",
+        "Maintain a balanced diet"
+      ],
+      "medications": ["Pain relievers", "Alpha blockers"],
+      "treatment_options": ["Lithotripsy", "Surgical removal"]
+    },
+    {
+      "name": "Lead Poisoning",
+      "description": "A condition caused by exposure to high levels of lead, leading to health issues.",
+      "precautions": [
+        "Avoid lead-based paints and materials",
+        "Ensure clean drinking water",
+        "Practice good hygiene"
+      ],
+      "medications": ["Chelation therapy"],
+      "treatment_options": ["Remove source of lead", "Supportive care"]
+    },
+    {
+      "name": "Legionnaires' Disease",
+      "description": "A severe form of pneumonia caused by Legionella bacteria.",
+      "precautions": [
+        "Maintain clean water systems",
+        "Avoid contaminated aerosols",
+        "Follow regular maintenance of air conditioning systems"
+      ],
+      "medications": ["Antibiotics"],
+      "treatment_options": ["Hospital care", "Oxygen therapy"]
+    },
+    {
+      "name": "Leptospirosis",
+      "description": "A bacterial infection spread through water contaminated with animal urine.",
+      "precautions": [
+        "Avoid swimming in contaminated water",
+        "Wear protective clothing",
+        "Practice good hygiene"
+      ],
+      "medications": ["Antibiotics"],
+      "treatment_options": ["Supportive care", "Hydration therapy"]
+    },
+    {
+      "name": "Leukemia",
+      "description": "A type of cancer affecting blood-forming tissues, including the bone marrow and lymphatic system.",
+      "precautions": [
+        "Avoid exposure to harmful chemicals",
+        "Maintain a healthy lifestyle",
+        "Follow regular medical check-ups"
+      ],
+      "medications": ["Chemotherapy drugs"],
+      "treatment_options": ["Bone marrow transplant", "Targeted therapy"]
+    },
+    {
+      "name": "Liver Cancer",
+      "description": "A type of cancer that begins in the liver.",
+      "precautions": [
+        "Avoid excessive alcohol consumption",
+        "Get vaccinated for hepatitis B",
+        "Maintain a healthy weight"
+      ],
+      "medications": ["Targeted therapy drugs"],
+      "treatment_options": ["Surgery", "Liver transplantation"]
+    },
+    {
+      "name": "Lung Cancer",
+      "description": "A type of cancer that begins in the lungs, often caused by smoking.",
+      "precautions": [
+        "Avoid smoking and secondhand smoke",
+        "Limit exposure to carcinogens",
+        "Maintain a healthy lifestyle"
+      ],
+      "medications": ["Chemotherapy drugs", "Immunotherapy"],
+      "treatment_options": ["Surgery", "Radiation therapy"]
+    },
+    {
+      "name": "Lupus",
+      "description": "An autoimmune disease where the immune system attacks its own tissues.",
+      "precautions": [
+        "Avoid sun exposure",
+        "Manage stress",
+        "Follow a healthy diet"
+      ],
+      "medications": ["Corticosteroids", "Immunosuppressants"],
+      "treatment_options": ["Lifestyle changes", "Regular monitoring"]
+    },
+    {
+      "name": "Lyme Disease",
+      "description": "A bacterial infection transmitted through tick bites.",
+      "precautions": [
+        "Use insect repellent",
+        "Wear protective clothing",
+        "Check for ticks after outdoor activities"
+      ],
+      "medications": ["Antibiotics"],
+      "treatment_options": ["Early treatment", "Supportive care"]
+    },
+    {
+      "name": "Malaria",
+      "description": "A mosquito-borne disease caused by Plasmodium parasites.",
+      "precautions": [
+        "Use mosquito nets",
+        "Take antimalarial medications",
+        "Avoid mosquito bites"
+      ],
+      "medications": ["Chloroquine", "Artemisinin-based therapies"],
+      "treatment_options": ["Antimalarial treatment", "Supportive care"]
+    },
+    {
+      "name": "Meningitis",
+      "description": "Inflammation of the protective membranes covering the brain and spinal cord.",
+      "precautions": [
+        "Get vaccinated",
+        "Practice good hygiene",
+        "Avoid close contact with infected individuals"
+      ],
+      "medications": ["Antibiotics", "Antiviral drugs"],
+      "treatment_options": ["Hospital care", "Supportive treatment"]
+    },
+    {
+      "name": "Metabolic Syndrome",
+      "description": "A cluster of conditions increasing the risk of heart disease, stroke, and diabetes.",
+      "precautions": [
+        "Maintain a healthy weight",
+        "Exercise regularly",
+        "Follow a balanced diet"
+      ],
+      "medications": [
+        "Cholesterol-lowering drugs",
+        "Blood pressure medications"
+      ],
+      "treatment_options": ["Lifestyle changes", "Medication management"]
+    },
+    {
+      "name": "Multiple Myeloma",
+      "description": "A cancer of plasma cells that weakens bones and the immune system.",
+      "precautions": [
+        "Follow a healthy diet",
+        "Stay active",
+        "Avoid infections"
+      ],
+      "medications": ["Chemotherapy", "Steroids"],
+      "treatment_options": ["Bone marrow transplant", "Targeted therapy"]
+    },
+    {
+      "name": "Muscular Dystrophy",
+      "description": "A group of diseases causing progressive weakness and loss of muscle mass.",
+      "precautions": [
+        "Engage in physical therapy",
+        "Maintain a healthy diet",
+        "Use assistive devices"
+      ],
+      "medications": ["Corticosteroids"],
+      "treatment_options": ["Physical therapy", "Surgical interventions"]
+    },
+    {
+      "name": "Myasthenia Gravis",
+      "description": "A chronic autoimmune disorder causing muscle weakness.",
+      "precautions": [
+        "Avoid strenuous activities",
+        "Manage stress",
+        "Follow a healthy lifestyle"
+      ],
+      "medications": ["Anticholinesterase agents", "Immunosuppressants"],
+      "treatment_options": ["Plasmapheresis", "Thymectomy"]
+    },
+    {
+      "name": "Narcolepsy",
+      "description": "A chronic sleep disorder characterized by overwhelming daytime drowsiness and sudden attacks of sleep.",
+      "precautions": [
+        "Maintain a regular sleep schedule",
+        "Avoid heavy meals before bedtime",
+        "Create a safe environment to avoid injury during sudden sleep episodes"
+      ],
+      "medications": ["Stimulants", "Antidepressants"],
+      "treatment_options": ["Medication management", "Lifestyle changes"]
+    },
+    {
+      "name": "Nephritis",
+      "description": "Inflammation of the kidneys, which can impair their function.",
+      "precautions": [
+        "Avoid nephrotoxic drugs",
+        "Follow a kidney-friendly diet",
+        "Stay hydrated"
+      ],
+      "medications": ["Corticosteroids", "Immunosuppressants"],
+      "treatment_options": ["Lifestyle adjustments", "Dialysis in severe cases"]
+    },
+    {
+      "name": "Neurofibromatosis",
+      "description": "A genetic disorder causing tumors to form on nerve tissue.",
+      "precautions": [
+        "Regular monitoring by specialists",
+        "Maintain a healthy lifestyle",
+        "Avoid injury to affected areas"
+      ],
+      "medications": ["Pain relievers"],
+      "treatment_options": ["Surgery", "Radiation therapy for tumors"]
+    },
+    {
+      "name": "Non-Hodgkin Lymphoma",
+      "description": "A cancer of the lymphatic system that can spread to other organs.",
+      "precautions": [
+        "Follow a healthy diet",
+        "Avoid infections",
+        "Adhere to treatment protocols"
+      ],
+      "medications": ["Chemotherapy", "Targeted therapy"],
+      "treatment_options": ["Stem cell transplant", "Immunotherapy"]
+    },
+    {
+      "name": "Eosinophilic Esophagitis",
+      "description": "A chronic immune system disease where eosinophils build up in the esophagus, leading to inflammation and damage.",
+      "precautions": [
+        "Avoid known food allergens",
+        "Maintain regular follow-ups with a gastroenterologist",
+        "Follow a strict elimination diet if prescribed"
+      ],
+      "medications": ["Proton pump inhibitors", "Topical corticosteroids"],
+      "treatment_options": [
+        "Dietary management",
+        "Dilation of the esophagus in severe cases"
+      ]
+    },
+    {
+      "name": "Epidermolysis Bullosa",
+      "description": "A rare genetic condition that causes fragile, blistering skin.",
+      "precautions": [
+        "Avoid trauma or friction to the skin",
+        "Use soft bandages to protect wounds",
+        "Maintain a nutritious diet to promote healing"
+      ],
+      "medications": ["Pain relievers", "Antibiotics to prevent infection"],
+      "treatment_options": ["Skin grafts in severe cases"]
+    },
+    {
+      "name": "Essential Tremor",
+      "description": "A neurological disorder causing involuntary and rhythmic shaking, typically in the hands.",
+      "precautions": [
+        "Avoid caffeine and other tremor triggers",
+        "Practice relaxation techniques",
+        "Use adaptive tools to reduce strain"
+      ],
+      "medications": ["Beta-blockers", "Anticonvulsants"],
+      "treatment_options": [
+        "Focused ultrasound therapy",
+        "Deep brain stimulation"
+      ]
+    },
+    {
+      "name": "Familial Hypercholesterolemia",
+      "description": "An inherited condition leading to high cholesterol levels and an increased risk of heart disease.",
+      "precautions": [
+        "Adopt a heart-healthy diet",
+        "Exercise regularly",
+        "Avoid smoking"
+      ],
+      "medications": ["Statins", "Ezetimibe"],
+      "treatment_options": ["Lipid apheresis for severe cases"]
+    },
+    {
+      "name": "Fibromuscular Dysplasia",
+      "description": "A condition causing abnormal cell growth in artery walls, leading to narrowing and blockages.",
+      "precautions": [
+        "Manage blood pressure effectively",
+        "Avoid smoking",
+        "Undergo regular vascular monitoring"
+      ],
+      "medications": ["Antihypertensive drugs"],
+      "treatment_options": ["Angioplasty"]
+    },
+    {
+      "name": "Fragile X Syndrome",
+      "description": "A genetic condition causing intellectual disability, behavioral challenges, and distinctive physical features.",
+      "precautions": [
+        "Engage in early intervention programs",
+        "Provide supportive education and therapies",
+        "Regularly monitor for associated health issues"
+      ],
+      "medications": [
+        "Behavioral therapy aids",
+        "Medications for ADHD or anxiety"
+      ],
+      "treatment_options": ["Therapies for speech and occupational skills"]
+    },
+    {
+      "name": "Gallstones",
+      "description": "Hardened deposits of digestive fluid that can form in the gallbladder.",
+      "precautions": [
+        "Maintain a healthy weight",
+        "Avoid rapid weight loss",
+        "Adopt a low-fat, high-fiber diet"
+      ],
+      "medications": ["Bile acid pills"],
+      "treatment_options": ["Surgical removal of the gallbladder"]
+    },
+    {
+      "name": "Giant Cell Arteritis",
+      "description": "An inflammation of the lining of the arteries, often in the head.",
+      "precautions": [
+        "Monitor symptoms like headaches or vision changes",
+        "Follow up regularly with a rheumatologist",
+        "Take medications as prescribed"
+      ],
+      "medications": ["Corticosteroids", "Tocilizumab"],
+      "treatment_options": ["Long-term monitoring and care"]
+    },
+    {
+      "name": "Glomerulonephritis",
+      "description": "A condition involving inflammation of the kidney's filtering units, leading to impaired kidney function.",
+      "precautions": [
+        "Manage high blood pressure and diabetes",
+        "Avoid nephrotoxic substances",
+        "Monitor kidney function regularly"
+      ],
+      "medications": ["Immunosuppressants", "ACE inhibitors"],
+      "treatment_options": ["Dialysis or kidney transplant in severe cases"]
+    },
+    {
+      "name": "Gouty Arthritis",
+      "description": "A form of arthritis caused by the accumulation of urate crystals in the joints.",
+      "precautions": [
+        "Avoid high-purine foods",
+        "Stay hydrated",
+        "Maintain a healthy weight"
+      ],
+      "medications": ["Colchicine", "Uric acid-lowering drugs"],
+      "treatment_options": ["Joint aspiration to relieve pain"]
+    },
+    {
+      "name": "Iron Deficiency",
+      "description": "A condition where the body lacks sufficient iron to produce adequate levels of hemoglobin.",
+      "precautions": [
+        "Include iron-rich foods in your diet",
+        "Take vitamin C to enhance iron absorption",
+        "Avoid excessive caffeine intake"
+      ],
+      "medications": ["Iron supplements", "Vitamin C supplements"],
+      "treatment_options": ["Blood transfusion for severe cases"]
+    },
+    {
+      "name": "Ischemic Heart Disease",
+      "description": "A condition caused by reduced blood flow to the heart, often due to coronary artery blockage.",
+      "precautions": [
+        "Follow a heart-healthy diet",
+        "Exercise regularly",
+        "Avoid smoking and excessive alcohol consumption"
+      ],
+      "medications": ["Beta-blockers", "Aspirin", "Statins"],
+      "treatment_options": ["Angioplasty", "Coronary artery bypass grafting"]
+    },
+    {
+      "name": "Juvenile Idiopathic Arthritis",
+      "description": "A type of arthritis that affects children, causing joint inflammation and stiffness.",
+      "precautions": [
+        "Encourage physical activity to maintain mobility",
+        "Use assistive devices if needed",
+        "Monitor for eye inflammation (uveitis)"
+      ],
+      "medications": [
+        "Nonsteroidal anti-inflammatory drugs (NSAIDs)",
+        "Disease-modifying antirheumatic drugs (DMARDs)"
+      ],
+      "treatment_options": [
+        "Physical therapy",
+        "Biologic agents for severe cases"
+      ]
+    },
+    {
+      "name": "Klinefelter Syndrome",
+      "description": "A genetic condition in males caused by an extra X chromosome, leading to developmental issues.",
+      "precautions": [
+        "Provide early developmental support",
+        "Monitor for associated health risks like osteoporosis",
+        "Encourage regular medical check-ups"
+      ],
+      "medications": ["Testosterone replacement therapy"],
+      "treatment_options": ["Speech and occupational therapy"]
+    },
+    {
+      "name": "Krabbe Disease",
+      "description": "A rare genetic disorder affecting the nervous system, caused by a deficiency of the GALC enzyme.",
+      "precautions": [
+        "Genetic counseling for families at risk",
+        "Monitor for neurological symptoms",
+        "Provide supportive care"
+      ],
+      "medications": ["Symptom-specific treatments"],
+      "treatment_options": ["Stem cell transplantation if diagnosed early"]
+    },
+    {
+      "name": "Langerhans Cell Histiocytosis",
+      "description": "A rare disorder where excess immune cells build up in the body, potentially damaging tissues and organs.",
+      "precautions": [
+        "Avoid smoking",
+        "Regularly monitor bone and organ health",
+        "Seek timely medical care for recurring symptoms"
+      ],
+      "medications": ["Corticosteroids", "Chemotherapy agents"],
+      "treatment_options": ["Surgery for localized lesions"]
+    },
+    {
+      "name": "Laryngeal Cancer",
+      "description": "A cancer that forms in the tissues of the larynx (voice box).",
+      "precautions": [
+        "Avoid smoking and alcohol consumption",
+        "Maintain a healthy diet",
+        "Seek regular ENT check-ups"
+      ],
+      "medications": ["Targeted therapies", "Chemotherapy"],
+      "treatment_options": [
+        "Radiation therapy",
+        "Surgical removal of the tumor"
+      ]
+    },
+    {
+      "name": "Lichen Planus",
+      "description": "An inflammatory condition affecting the skin and mucous membranes, causing itchy, flat-topped bumps.",
+      "precautions": [
+        "Avoid potential irritants like spicy foods for oral lesions",
+        "Practice good oral hygiene",
+        "Monitor for associated conditions like hepatitis C"
+      ],
+      "medications": ["Corticosteroids", "Antihistamines"],
+      "treatment_options": ["Light therapy for severe skin cases"]
+    },
+    {
+      "name": "Lipoedema",
+      "description": "A chronic condition involving the accumulation of fat in the lower body, often causing pain and swelling.",
+      "precautions": [
+        "Wear compression garments",
+        "Maintain a healthy weight",
+        "Engage in low-impact exercises"
+      ],
+      "medications": ["Pain relievers"],
+      "treatment_options": ["Liposuction for severe cases"]
+    },
+    {
+      "name": "Liposarcoma",
+      "description": "A rare cancer that begins in fat cells, often occurring in the limbs or abdomen.",
+      "precautions": [
+        "Regular follow-ups for tumor monitoring",
+        "Adopt a healthy lifestyle to support treatment",
+        "Seek early intervention for new symptoms"
+      ],
+      "medications": ["Chemotherapy drugs"],
+      "treatment_options": [
+        "Surgical removal of the tumor",
+        "Radiation therapy"
+      ]
+    },
+    {
+      "name": "Lou Gehrig's Disease (ALS)",
+      "description": "A progressive neurodegenerative disorder affecting nerve cells in the brain and spinal cord.",
+      "precautions": [
+        "Engage in physical therapy to maintain mobility",
+        "Use assistive devices for breathing and mobility",
+        "Ensure proper nutritional intake"
+      ],
+      "medications": ["Riluzole", "Edaravone"],
+      "treatment_options": ["Supportive care and rehabilitation"]
+    },
+    {
+      "name": "Meniere's Disease",
+      "description": "A disorder of the inner ear causing vertigo, tinnitus, and hearing loss.",
+      "precautions": [
+        "Reduce salt intake to prevent fluid buildup",
+        "Avoid triggers like caffeine and stress",
+        "Rest during vertigo episodes"
+      ],
+      "medications": ["Diuretics", "Antivertigo medications"],
+      "treatment_options": ["Hearing aids", "Surgery in severe cases"]
+    },
+    {
+      "name": "Metastatic Cancer",
+      "description": "Cancer that has spread from its original site to other parts of the body.",
+      "precautions": [
+        "Adopt a healthy lifestyle to support treatment",
+        "Monitor for new symptoms regularly",
+        "Follow up with your oncologist consistently"
+      ],
+      "medications": ["Chemotherapy", "Immunotherapy"],
+      "treatment_options": ["Radiation therapy", "Surgical interventions"]
+    },
+    {
+      "name": "Mitochondrial Myopathy",
+      "description": "A group of neuromuscular diseases caused by genetic defects affecting mitochondria.",
+      "precautions": [
+        "Avoid overexertion",
+        "Maintain a balanced diet",
+        "Monitor for associated symptoms"
+      ],
+      "medications": ["Coenzyme Q10", "L-carnitine"],
+      "treatment_options": ["Supportive therapies"]
+    },
+    {
+      "name": "Molluscum Contagiosum",
+      "description": "A viral skin infection causing raised, pearl-like papules or nodules.",
+      "precautions": [
+        "Avoid sharing personal items",
+        "Do not scratch or pick at lesions",
+        "Maintain good hygiene"
+      ],
+      "medications": ["Topical creams", "Antiviral medications"],
+      "treatment_options": ["Cryotherapy", "Laser therapy"]
+    },
+    {
+      "name": "Multiple Sclerosis",
+      "description": "A chronic disease where the immune system attacks the protective covering of nerves.",
+      "precautions": [
+        "Avoid overheating and manage stress",
+        "Engage in physical therapy",
+        "Monitor for worsening symptoms"
+      ],
+      "medications": ["Interferons", "Immunomodulatory drugs"],
+      "treatment_options": ["Rehabilitation therapy"]
+    },
+    {
+      "name": "Myelodysplastic Syndromes",
+      "description": "A group of disorders caused by poorly formed or dysfunctional blood cells.",
+      "precautions": [
+        "Avoid infections with proper hygiene",
+        "Regularly monitor blood counts",
+        "Maintain a healthy lifestyle"
+      ],
+      "medications": ["Growth factors", "Immunosuppressants"],
+      "treatment_options": ["Bone marrow transplant"]
+    },
+    {
+      "name": "Myocarditis",
+      "description": "An inflammation of the heart muscle often caused by infections.",
+      "precautions": [
+        "Avoid strenuous activity during recovery",
+        "Monitor heart function regularly",
+        "Follow up with a cardiologist"
+      ],
+      "medications": ["Anti-inflammatory drugs", "ACE inhibitors"],
+      "treatment_options": ["Heart transplant in severe cases"]
+    },
+    {
+      "name": "Narcolepsy with Cataplexy",
+      "description": "A chronic sleep disorder causing overwhelming daytime drowsiness and sudden muscle weakness.",
+      "precautions": [
+        "Maintain a regular sleep schedule",
+        "Avoid alcohol and caffeine before bedtime",
+        "Engage in brief naps during the day"
+      ],
+      "medications": ["Stimulants", "Antidepressants"],
+      "treatment_options": ["Behavioral therapy"]
+    },
+    {
+      "name": "Nephrotic Syndrome",
+      "description": "A kidney disorder causing excessive protein loss in the urine.",
+      "precautions": [
+        "Maintain a low-sodium diet",
+        "Monitor blood pressure regularly",
+        "Avoid nephrotoxic substances"
+      ],
+      "medications": ["Diuretics", "ACE inhibitors"],
+      "treatment_options": ["Dialysis or kidney transplant in severe cases"]
+    },
+    {
+      "name": "Neurodegeneration with Brain Iron Accumulation",
+      "description": "A group of rare genetic disorders characterized by abnormal iron accumulation in the brain.",
+      "precautions": [
+        "Monitor neurological symptoms regularly",
+        "Seek genetic counseling if needed",
+        "Provide supportive care for symptoms"
+      ],
+      "medications": ["Iron chelation therapy"],
+      "treatment_options": ["Physical and occupational therapy"]
+    },
+    {
+      "name": "Neurogenic Bladder",
+      "description": "A condition where nerve damage affects bladder control, leading to retention or incontinence.",
+      "precautions": [
+        "Follow a bladder training schedule",
+        "Avoid caffeine and alcohol",
+        "Practice pelvic floor exercises"
+      ],
+      "medications": ["Anticholinergic drugs", "Botulinum toxin injections"],
+      "treatment_options": ["Catheterization", "Surgery in severe cases"]
+    },
+    {
+      "name": "Nonalcoholic Fatty Liver Disease",
+      "description": "A condition caused by fat buildup in the liver in individuals who consume little or no alcohol.",
+      "precautions": [
+        "Maintain a healthy weight",
+        "Adopt a balanced diet rich in vegetables and whole grains",
+        "Exercise regularly"
+      ],
+      "medications": ["Vitamin E", "Insulin-sensitizing agents"],
+      "treatment_options": ["Lifestyle modifications"]
+    },
+    {
+      "name": "OCD",
+      "description": "A mental health disorder characterized by repetitive, unwanted thoughts (obsessions) and/or compulsive behaviors performed in response to the obsessions.",
+      "precautions": [
+        "Seek therapy (Cognitive Behavioral Therapy)",
+        "Practice relaxation techniques",
+        "Avoid triggers that worsen symptoms"
+      ],
+      "medications": [
+        "Selective Serotonin Reuptake Inhibitors (SSRIs)",
+        "Clomipramine"
+      ],
+      "treatment_options": [
+        "Psychotherapy",
+        "Medication",
+        "Deep brain stimulation in severe cases"
+      ]
+    },
+    {
+      "name": "Osteogenesis Imperfecta",
+      "description": "A genetic disorder affecting collagen production, resulting in fragile bones, frequent fractures, and skeletal deformities.",
+      "precautions": [
+        "Avoid high-impact activities",
+        "Ensure adequate calcium and vitamin D intake",
+        "Regular physical therapy"
+      ],
+      "medications": ["Bisphosphonates"],
+      "treatment_options": [
+        "Surgery for severe deformities",
+        "Physical rehabilitation"
+      ]
+    },
+    {
+      "name": "Osteosarcoma",
+      "description": "A malignant bone tumor typically occurring in the long bones, often affecting teenagers and young adults.",
+      "precautions": [
+        "Early detection through imaging and tests",
+        "Avoid physical strain during treatment"
+      ],
+      "medications": ["Chemotherapy"],
+      "treatment_options": ["Surgical removal of tumor", "Radiation therapy"]
+    },
+    {
+      "name": "Paget's Disease of Bone",
+      "description": "A chronic disorder causing abnormal bone remodeling, leading to enlarged, misshapen, and weakened bones.",
+      "precautions": [
+        "Maintain bone health with calcium and vitamin D",
+        "Regular monitoring of bone density"
+      ],
+      "medications": ["Bisphosphonates", "Calcitonin"],
+      "treatment_options": ["Orthopedic surgery in severe cases"]
+    },
+    {
+      "name": "Pancreatic Cancer",
+      "description": "A malignant tumor of the pancreas, often presenting late with symptoms such as jaundice, weight loss, and abdominal pain.",
+      "precautions": [
+        "Avoid smoking and excessive alcohol intake",
+        "Maintain a healthy diet and lifestyle",
+        "Regular screenings for high-risk individuals"
+      ],
+      "medications": ["Chemotherapy"],
+      "treatment_options": ["Surgery", "Radiation therapy"]
+    },
+    {
+      "name": "Papillary Thyroid Carcinoma",
+      "description": "The most common type of thyroid cancer, often presenting as a painless lump in the thyroid gland.",
+      "precautions": [
+        "Monitor for thyroid lumps",
+        "Regular thyroid function tests"
+      ],
+      "medications": ["Thyroid hormone replacement therapy"],
+      "treatment_options": [
+        "Surgical removal of the thyroid gland",
+        "Radioactive iodine therapy"
+      ]
+    },
+    {
+      "name": "Parasitic Infections",
+      "description": "Diseases caused by parasitic organisms such as protozoa, helminths, or ectoparasites, leading to symptoms ranging from mild discomfort to severe systemic illness.",
+      "precautions": [
+        "Maintain hygiene",
+        "Avoid contaminated water or food",
+        "Use insect repellents in endemic areas"
+      ],
+      "medications": ["Antiparasitic drugs"],
+      "treatment_options": ["Supportive care", "Targeted medication"]
+    },
+    {
+      "name": "Pelvic Inflammatory Disease",
+      "description": "An infection of the female reproductive organs, often caused by sexually transmitted bacteria, leading to pelvic pain and potential infertility.",
+      "precautions": [
+        "Practice safe sex",
+        "Regular gynecological checkups",
+        "Complete prescribed antibiotic courses"
+      ],
+      "medications": ["Antibiotics"],
+      "treatment_options": ["Laparoscopic surgery in severe cases"]
+    },
+    {
+      "name": "Pericarditis",
+      "description": "Inflammation of the pericardium, the sac surrounding the heart, often causing sharp chest pain that worsens with lying down.",
+      "precautions": [
+        "Avoid strenuous activity during recovery",
+        "Monitor for worsening symptoms"
+      ],
+      "medications": ["NSAIDs", "Colchicine"],
+      "treatment_options": ["Pericardiocentesis in severe cases"]
+    },
+    {
+      "name": "Peripheral Neuropathy",
+      "description": "Damage to peripheral nerves resulting in weakness, numbness, and pain, often affecting the hands and feet.",
+      "precautions": [
+        "Control underlying conditions like diabetes",
+        "Avoid repetitive injuries to the affected areas"
+      ],
+      "medications": ["Pain relievers", "Antidepressants"],
+      "treatment_options": [
+        "Physical therapy",
+        "Nerve repair surgery in severe cases"
+      ]
+    },
+    {
+      "name": "Pheochromocytoma",
+      "description": "A rare adrenal gland tumor that secretes excessive catecholamines, causing high blood pressure, headaches, and sweating.",
+      "precautions": [
+        "Monitor blood pressure regularly",
+        "Avoid triggers like stress or certain foods"
+      ],
+      "medications": ["Alpha-blockers", "Beta-blockers"],
+      "treatment_options": ["Surgical removal of the tumor"]
+    },
+    {
+      "name": "Polycythemia Vera",
+      "description": "A blood disorder where the bone marrow produces too many red blood cells, leading to thickened blood and increased risk of clotting.",
+      "precautions": ["Stay hydrated", "Avoid smoking"],
+      "medications": ["Hydroxyurea"],
+      "treatment_options": ["Phlebotomy to reduce red blood cell levels"]
+    },
+    {
+      "name": "Polymyalgia Rheumatica",
+      "description": "An inflammatory disorder causing muscle pain and stiffness, particularly in the shoulders and hips, commonly affecting older adults.",
+      "precautions": [
+        "Regular exercise",
+        "Monitor for associated conditions like giant cell arteritis"
+      ],
+      "medications": ["Corticosteroids"],
+      "treatment_options": ["Physical therapy"]
+    },
+    {
+      "name": "Postural Orthostatic Tachycardia Syndrome (POTS)",
+      "description": "A condition characterized by an abnormal increase in heart rate upon standing, leading to dizziness, fainting, and fatigue.",
+      "precautions": [
+        "Increase salt and water intake",
+        "Wear compression stockings"
+      ],
+      "medications": ["Fludrocortisone", "Beta-blockers"],
+      "treatment_options": ["Lifestyle changes"]
+    },
+    {
+      "name": "Primary Biliary Cholangitis",
+      "description": "A chronic autoimmune liver disease causing progressive destruction of bile ducts, leading to liver damage and cirrhosis.",
+      "precautions": [
+        "Avoid alcohol",
+        "Monitor liver function tests regularly"
+      ],
+      "medications": ["Ursodeoxycholic acid"],
+      "treatment_options": ["Liver transplant in advanced cases"]
+    },
+    {
+      "name": "Primary Sclerosing Cholangitis",
+      "description": "A progressive disease causing inflammation and scarring of bile ducts, often associated with inflammatory bowel disease.",
+      "precautions": ["Regular monitoring of liver function", "Avoid alcohol"],
+      "medications": ["Ursodeoxycholic acid"],
+      "treatment_options": ["Liver transplant in severe cases"]
+    },
+    {
+      "name": "Prolactinoma",
+      "description": "A benign tumor of the pituitary gland that overproduces prolactin, leading to symptoms such as infertility, decreased libido, and milk production in non-lactating individuals.",
+      "precautions": ["Monitor hormone levels", "Avoid stress"],
+      "medications": ["Dopamine agonists"],
+      "treatment_options": ["Surgical removal of tumor in severe cases"]
+    },
+    {
+      "name": "Psoriatic Arthritis",
+      "description": "A type of inflammatory arthritis associated with psoriasis, causing joint pain, stiffness, and swelling.",
+      "precautions": ["Maintain a healthy weight", "Avoid joint stress"],
+      "medications": ["NSAIDs", "Biologics"],
+      "treatment_options": ["Physical therapy", "Joint surgery"]
+    },
+    {
+      "name": "Pulmonary Embolism",
+      "description": "A potentially life-threatening condition caused by a blood clot blocking a pulmonary artery in the lungs, leading to chest pain, shortness of breath, and rapid heartbeat.",
+      "precautions": [
+        "Prevent deep vein thrombosis",
+        "Stay active during long travel"
+      ],
+      "medications": ["Anticoagulants", "Thrombolytics"],
+      "treatment_options": ["Surgical clot removal in severe cases"]
+    },
+    {
+      "name": "Pulmonary Hypertension",
+      "description": "High blood pressure in the arteries of the lungs, causing symptoms such as shortness of breath, fatigue, and chest pain.",
+      "precautions": ["Avoid high altitudes", "Limit strenuous activities"],
+      "medications": ["Prostacyclins", "Endothelin receptor antagonists"],
+      "treatment_options": ["Lung transplant in advanced cases"]
+    },
+    {
+      "name": "Raynaud's Disease",
+      "description": "A condition causing episodes of reduced blood flow to fingers and toes, often triggered by cold or stress, leading to color changes and pain.",
+      "precautions": ["Avoid cold exposure", "Quit smoking"],
+      "medications": ["Calcium channel blockers"],
+      "treatment_options": ["Nerve surgery in severe cases"]
+    },
+    {
+      "name": "Relapsing Polychondritis",
+      "description": "A rare autoimmune disease causing recurrent inflammation of cartilage, particularly in the ears, nose, and respiratory tract.",
+      "precautions": [
+        "Avoid cartilage strain",
+        "Monitor for airway complications"
+      ],
+      "medications": ["Corticosteroids", "Immunosuppressants"],
+      "treatment_options": ["Surgery for airway obstruction"]
+    },
+    {
+      "name": "Restless Legs Syndrome",
+      "description": "A neurological disorder characterized by an uncontrollable urge to move the legs, often accompanied by unpleasant sensations.",
+      "precautions": [
+        "Maintain a regular sleep schedule",
+        "Avoid caffeine and alcohol"
+      ],
+      "medications": ["Dopamine agonists", "Gabapentin"],
+      "treatment_options": ["Lifestyle changes"]
+    },
+    {
+      "name": "Rheumatic Fever",
+      "description": "An inflammatory disease following a streptococcal throat infection, potentially affecting the heart, joints, skin, and brain.",
+      "precautions": [
+        "Treat strep throat promptly",
+        "Regular follow-ups for heart health"
+      ],
+      "medications": ["Antibiotics", "Aspirin"],
+      "treatment_options": ["Supportive care"]
+    },
+    {
+      "name": "Sarcoma",
+      "description": "A group of cancers that begin in the bones and soft tissues.",
+      "precautions": [
+        "Seek regular medical check-ups",
+        "Avoid exposure to harmful chemicals",
+        "Maintain a healthy lifestyle"
+      ],
+      "medications": ["Chemotherapy", "Targeted therapy"],
+      "treatment_options": ["Surgery", "Radiation therapy", "Immunotherapy"]
+    },
+    {
+      "name": "Scleroderma",
+      "description": "A group of autoimmune diseases that cause hardening and tightening of the skin and connective tissues.",
+      "precautions": [
+        "Protect skin from cold and injury",
+        "Use moisturizing products",
+        "Avoid smoking"
+      ],
+      "medications": ["Immunosuppressants", "Anti-inflammatory drugs"],
+      "treatment_options": ["Physical therapy", "Symptomatic treatment"]
+    },
+    {
+      "name": "Scoliosis",
+      "description": "A sideways curvature of the spine that most often occurs during the growth spurt before puberty.",
+      "precautions": [
+        "Regular spinal screenings",
+        "Practice good posture",
+        "Avoid heavy lifting"
+      ],
+      "medications": ["Pain relievers"],
+      "treatment_options": ["Bracing", "Surgery in severe cases"]
+    },
+    {
+      "name": "Sepsis",
+      "description": "A life-threatening condition caused by the body's response to an infection.",
+      "precautions": [
+        "Practice good hygiene",
+        "Get vaccinations",
+        "Seek immediate medical attention for infections"
+      ],
+      "medications": ["Antibiotics", "Vasopressors"],
+      "treatment_options": [
+        "Intravenous fluids",
+        "Oxygen therapy",
+        "Surgery for infection source"
+      ]
+    },
+    {
+      "name": "Sjögren's Syndrome",
+      "description": "An autoimmune disease that targets moisture-producing glands, leading to dry eyes and mouth.",
+      "precautions": [
+        "Use artificial tears",
+        "Stay hydrated",
+        "Avoid environmental irritants"
+      ],
+      "medications": ["Immunosuppressants", "Cholinergic agents"],
+      "treatment_options": ["Symptom management"]
+    },
+    {
+      "name": "Spinal Muscular Atrophy",
+      "description": "A genetic disorder affecting the control of muscle movement due to loss of motor neurons.",
+      "precautions": [
+        "Physical therapy",
+        "Regular medical check-ups",
+        "Use supportive devices for mobility"
+      ],
+      "medications": ["Nusinersen", "Risdiplam"],
+      "treatment_options": ["Gene therapy", "Respiratory support"]
+    },
+    {
+      "name": "Stiff Person Syndrome",
+      "description": "A rare neurological disorder characterized by muscle stiffness and spasms.",
+      "precautions": [
+        "Avoid triggers like stress and cold",
+        "Engage in gentle physical activities",
+        "Maintain a calm environment"
+      ],
+      "medications": ["Diazepam", "Immunoglobulin therapy"],
+      "treatment_options": ["Plasma exchange", "Symptom management"]
+    },
+    {
+      "name": "Systemic Lupus Erythematosus (SLE)",
+      "description": "An autoimmune disease where the immune system attacks its own tissues.",
+      "precautions": [
+        "Protect skin from sunlight",
+        "Avoid stress",
+        "Maintain a healthy diet"
+      ],
+      "medications": ["Corticosteroids", "Immunosuppressants"],
+      "treatment_options": ["Symptomatic management"]
+    },
+    {
+      "name": "Tarlov Cysts",
+      "description": "Fluid-filled sacs on the spinal nerve roots, often causing pain and neurological symptoms.",
+      "precautions": [
+        "Avoid heavy lifting",
+        "Engage in gentle exercises",
+        "Monitor symptoms regularly"
+      ],
+      "medications": ["Pain relievers", "Anti-inflammatory drugs"],
+      "treatment_options": ["Surgical intervention in severe cases"]
+    },
+    {
+      "name": "Thrombocytopenia",
+      "description": "A condition characterized by a low platelet count in the blood.",
+      "precautions": [
+        "Avoid injury",
+        "Avoid medications that affect clotting",
+        "Monitor platelet levels"
+      ],
+      "medications": ["Steroids", "Thrombopoietin receptor agonists"],
+      "treatment_options": ["Platelet transfusion"]
+    },
+    {
+      "name": "Thrombotic Thrombocytopenic Purpura (TTP)",
+      "description": "A rare blood disorder causing blood clots to form in small blood vessels.",
+      "precautions": [
+        "Avoid triggers like infections",
+        "Regular medical check-ups",
+        "Monitor blood counts"
+      ],
+      "medications": ["Plasma exchange", "Immunosuppressants"],
+      "treatment_options": ["Plasma therapy", "Symptom management"]
+    },
+    {
+      "name": "Tinnitus",
+      "description": "The perception of noise or ringing in the ears without an external sound source.",
+      "precautions": [
+        "Avoid loud noises",
+        "Manage stress",
+        "Use white noise machines"
+      ],
+      "medications": ["Antidepressants", "Anxiolytics"],
+      "treatment_options": ["Cognitive behavioral therapy", "Hearing aids"]
+    },
+    {
+      "name": "Toxoplasmosis",
+      "description": "A disease caused by the parasite Toxoplasma gondii, often spread by undercooked food or cat feces.",
+      "precautions": [
+        "Cook meat thoroughly",
+        "Wash hands after handling soil or cats",
+        "Avoid unpasteurized dairy products"
+      ],
+      "medications": ["Pyrimethamine", "Sulfadiazine"],
+      "treatment_options": ["Antiparasitic therapy"]
+    },
+    {
+      "name": "Transverse Myelitis",
+      "description": "An inflammation of the spinal cord causing sensory and motor issues.",
+      "precautions": [
+        "Seek early treatment for infections",
+        "Avoid overexertion",
+        "Engage in physical therapy"
+      ],
+      "medications": ["Corticosteroids", "Immunosuppressants"],
+      "treatment_options": ["Plasma exchange", "Rehabilitation therapy"]
+    },
+    {
+      "name": "Trigeminal Neuralgia",
+      "description": "A chronic pain condition affecting the trigeminal nerve in the face.",
+      "precautions": [
+        "Avoid triggers like cold air or touch",
+        "Use stress management techniques",
+        "Maintain regular dental check-ups"
+      ],
+      "medications": ["Carbamazepine", "Gabapentin"],
+      "treatment_options": ["Surgery", "Nerve block"]
+    },
+    {
+      "name": "Turner Syndrome",
+      "description": "A chromosomal disorder affecting females, characterized by the absence of part or all of a second sex chromosome.",
+      "precautions": [
+        "Regular cardiac check-ups",
+        "Monitor growth and development",
+        "Maintain a healthy lifestyle"
+      ],
+      "medications": ["Growth hormone", "Estrogen replacement therapy"],
+      "treatment_options": ["Symptom management"]
+    },
+    {
+      "name": "Ulcerative Colitis",
+      "description": "A chronic inflammatory bowel disease causing inflammation and ulcers in the digestive tract.",
+      "precautions": [
+        "Follow a balanced diet",
+        "Avoid stress",
+        "Stay hydrated"
+      ],
+      "medications": ["Aminosalicylates", "Corticosteroids"],
+      "treatment_options": ["Surgery in severe cases"]
+    },
+    {
+      "name": "Uveitis",
+      "description": "Inflammation of the middle layer of the eye, causing pain, redness, and vision issues.",
+      "precautions": [
+        "Protect eyes from sunlight",
+        "Seek prompt treatment for infections",
+        "Avoid eye strain"
+      ],
+      "medications": ["Corticosteroids", "Immunosuppressants"],
+      "treatment_options": ["Surgical intervention if necessary"]
+    },
+    {
+      "name": "Vasculitis",
+      "description": "An inflammation of blood vessels causing changes in their walls.",
+      "precautions": [
+        "Avoid infections",
+        "Manage autoimmune conditions",
+        "Regular medical check-ups"
+      ],
+      "medications": ["Corticosteroids", "Immunosuppressants"],
+      "treatment_options": ["Symptom management"]
+    },
+    {
+      "name": "Von Willebrand Disease",
+      "description": "A genetic disorder that impairs the blood's ability to clot.",
+      "precautions": [
+        "Avoid injury",
+        "Inform medical professionals before procedures",
+        "Avoid medications that affect clotting"
+      ],
+      "medications": ["Desmopressin", "Clotting factor concentrates"],
+      "treatment_options": ["Symptom management"]
+    },
+    {
+      "name": "Wernicke-Korsakoff Syndrome",
+      "description": "A neurological disorder caused by a deficiency of vitamin B1 (thiamine).",
+      "precautions": [
+        "Avoid excessive alcohol consumption",
+        "Maintain a balanced diet",
+        "Take vitamin B1 supplements"
+      ],
+      "medications": ["Thiamine supplements"],
+      "treatment_options": ["Supportive care"]
+    },
+    {
+      "name": "Wilson's Disease",
+      "description": "A genetic disorder that causes excess copper to accumulate in the body.",
+      "precautions": [
+        "Avoid high-copper foods",
+        "Take prescribed medications regularly",
+        "Monitor copper levels"
+      ],
+      "medications": ["Penicillamine", "Trientine"],
+      "treatment_options": ["Liver transplant in severe cases"]
+    },
+    {
+      "name": "Xeroderma Pigmentosum",
+      "description": "A rare genetic disorder causing extreme sensitivity to ultraviolet rays from sunlight.",
+      "precautions": [
+        "Avoid sun exposure",
+        "Use protective clothing and sunscreen",
+        "Regular skin check-ups"
+      ],
+      "medications": ["Vitamin D supplements"],
+      "treatment_options": ["Surgical removal of cancerous lesions"]
+    },
+    {
+      "name": "Yellow Fever",
+      "description": "A viral infection spread by mosquitoes, affecting the liver and kidneys.",
+      "precautions": [
+        "Get vaccinated before traveling to endemic areas",
+        "Use mosquito repellents",
+        "Avoid outdoor activities during peak mosquito hours"
+      ],
+      "medications": ["Supportive care (fluids, pain relievers)"],
+      "treatment_options": [
+        "Symptomatic treatment as there is no specific antiviral therapy"
+      ]
+    },
+    {
+      "name": "Zollinger-Ellison Syndrome",
+      "description": "A rare disorder where tumors in the pancreas or duodenum cause overproduction of stomach acid.",
+      "precautions": [
+        "Avoid spicy and acidic foods",
+        "Manage stress levels",
+        "Seek regular medical monitoring"
+      ],
+      "medications": ["Proton pump inhibitors", "H2 receptor antagonists"],
+      "treatment_options": [
+        "Surgical removal of tumors",
+        "Medications to control acid production"
+      ]
+    },
+    {
+      "name": "Acute Respiratory Distress Syndrome (ARDS)",
+      "description": "A severe lung condition caused by fluid buildup in the air sacs.",
+      "precautions": [
+        "Avoid smoking",
+        "Manage underlying conditions",
+        "Seek immediate care for severe respiratory infections"
+      ],
+      "medications": ["Antibiotics (if infection is present)", "Diuretics"],
+      "treatment_options": [
+        "Mechanical ventilation",
+        "Oxygen therapy",
+        "Supportive care"
+      ]
+    },
+    {
+      "name": "Atypical Hemolytic Uremic Syndrome",
+      "description": "A rare condition characterized by the destruction of red blood cells, kidney failure, and low platelet count.",
+      "precautions": [
+        "Avoid triggers like infections",
+        "Monitor kidney function regularly",
+        "Follow a healthy diet to manage blood pressure"
+      ],
+      "medications": ["Eculizumab", "Plasma exchange"],
+      "treatment_options": ["Dialysis", "Kidney transplant in severe cases"]
+    },
+    {
+      "name": "Bacterial Pneumonia",
+      "description": "An infection in the lungs caused by bacteria, leading to inflammation and difficulty breathing.",
+      "precautions": [
+        "Get vaccinated against pneumonia",
+        "Practice good hygiene",
+        "Seek timely treatment for respiratory infections"
+      ],
+      "medications": ["Antibiotics", "Pain relievers"],
+      "treatment_options": [
+        "Hospitalization for severe cases",
+        "Oxygen therapy"
+      ]
+    },
+    {
+      "name": "Chronic Lymphocytic Leukemia",
+      "description": "A slow-growing cancer of the blood and bone marrow affecting white blood cells.",
+      "precautions": [
+        "Avoid exposure to infections",
+        "Maintain a healthy lifestyle",
+        "Regular monitoring of blood counts"
+      ],
+      "medications": ["Chemotherapy", "Targeted therapy drugs"],
+      "treatment_options": ["Bone marrow transplant", "Immunotherapy"]
+    },
+    {
+      "name": "Chronic Pain Disorder",
+      "description": "A condition characterized by persistent pain that lasts longer than the typical healing time.",
+      "precautions": [
+        "Practice stress management",
+        "Engage in regular physical activity",
+        "Seek support from mental health professionals"
+      ],
+      "medications": ["Pain relievers", "Antidepressants", "Muscle relaxants"],
+      "treatment_options": ["Cognitive behavioral therapy", "Physical therapy"]
+    },
+    {
+      "name": "Cystitis",
+      "description": "Inflammation of the bladder, often caused by a bacterial infection.",
+      "precautions": [
+        "Stay hydrated",
+        "Practice good personal hygiene",
+        "Urinate frequently"
+      ],
+      "medications": ["Antibiotics", "Pain relievers"],
+      "treatment_options": ["Symptomatic management", "Avoidance of irritants"]
+    },
+    {
+      "name": "Endometriosis",
+      "description": "A disorder in which tissue similar to the lining of the uterus grows outside it, causing pain and fertility issues.",
+      "precautions": [
+        "Manage stress",
+        "Maintain a healthy diet",
+        "Regular medical consultations"
+      ],
+      "medications": ["Hormonal therapy", "Pain relievers"],
+      "treatment_options": [
+        "Surgical removal of endometrial tissue",
+        "Lifestyle modifications"
+      ]
+    },
+    {
+      "name": "Erythema Multiforme",
+      "description": "A hypersensitivity reaction typically triggered by infections or medications, causing skin rashes and blisters.",
+      "precautions": [
+        "Avoid known triggers",
+        "Seek early treatment for infections",
+        "Use mild skincare products"
+      ],
+      "medications": ["Antihistamines", "Corticosteroids"],
+      "treatment_options": ["Symptomatic management", "Supportive care"]
+    },
+    {
+      "name": "Cancer",
+      "description": "A group of diseases involving abnormal cell growth with the potential to invade or spread to other parts of the body.",
+      "precautions": [
+        "Avoid smoking and alcohol consumption",
+        "Maintain a healthy diet rich in fruits and vegetables",
+        "Regular screening and check-ups for early detection"
+      ],
+      "medications": [
+        "Chemotherapy drugs",
+        "Immunotherapy agents",
+        "Targeted therapy drugs"
+      ],
+      "treatment_options": [
+        "Surgery to remove tumors",
+        "Radiation therapy",
+        "Palliative care for advanced cases"
+      ]
+    },
+    {
+      "name": "Heart Attack",
+      "description": "A blockage of blood flow to the heart muscle, often caused by a blood clot.",
+      "precautions": [
+        "Control cholesterol and blood pressure levels",
+        "Avoid smoking and excessive alcohol consumption",
+        "Engage in regular physical activity"
+      ],
+      "medications": ["Aspirin", "Beta-blockers", "Statins"],
+      "treatment_options": [
+        "Coronary angioplasty and stenting",
+        "Coronary artery bypass surgery",
+        "Cardiac rehabilitation post-recovery"
+      ]
+    },
+    {
+      "name": "Throat Pain",
+      "description": "Discomfort or pain in the throat, often caused by infections, allergies, or irritants.",
+      "precautions": [
+        "Stay hydrated",
+        "Avoid smoking and exposure to irritants",
+        "Use a humidifier in dry environments"
+      ],
+      "medications": [
+        "Pain relievers",
+        "Antibiotics (if bacterial infection)",
+        "Antihistamines for allergies"
+      ],
+      "treatment_options": [
+        "Saltwater gargle",
+        "Warm teas with honey",
+        "Rest and avoiding strain on the throat"
+      ]
+    },
+    {
+      "name": "Menstrual Periods",
+      "description": "The monthly shedding of the uterine lining in women of reproductive age, often accompanied by pain or discomfort.",
+      "precautions": [
+        "Maintain a healthy and balanced diet",
+        "Stay hydrated and avoid excessive caffeine",
+        "Track menstrual cycles for irregularities"
+      ],
+      "medications": [
+        "Pain relievers like ibuprofen",
+        "Oral contraceptives for cycle regulation"
+      ],
+      "treatment_options": [
+        "Heat application for cramps",
+        "Lifestyle modifications including exercise",
+        "Medical intervention for abnormal or heavy periods"
+      ]
+    },
+    {
+      "name": "Lung Cancer",
+      "description": "A type of cancer that begins in the lungs, often caused by smoking or exposure to carcinogens.",
+      "precautions": [
+        "Quit smoking and avoid exposure to secondhand smoke",
+        "Wear protective gear in environments with carcinogens",
+        "Undergo regular screenings if at risk"
+      ],
+      "medications": ["Chemotherapy", "Targeted therapies", "Immunotherapy"],
+      "treatment_options": [
+        "Surgery to remove tumors",
+        "Radiation therapy",
+        "Palliative care for advanced cases"
+      ]
+    },
+    {
+      "name": "Breast Cancer",
+      "description": "Cancer that forms in the cells of the breast, typically in the milk ducts or lobules.",
+      "precautions": [
+        "Perform regular self-breast exams",
+        "Undergo routine mammograms if at high risk",
+        "Avoid excessive alcohol consumption"
+      ],
+      "medications": ["Chemotherapy", "Hormone therapy", "Targeted therapy"],
+      "treatment_options": [
+        "Surgical removal of the tumor or whole breast (mastectomy)",
+        "Radiation therapy",
+        "Hormonal therapy for hormone receptor-positive cancers"
+      ]
+    },
+    {
+      "name": "Prostate Cancer",
+      "description": "Cancer that occurs in the prostate gland in men, often growing slowly.",
+      "precautions": [
+        "Regular prostate exams after age 50",
+        "Maintain a healthy diet and exercise routine",
+        "Avoid smoking"
+      ],
+      "medications": ["Chemotherapy", "Hormone therapy", "Immunotherapy"],
+      "treatment_options": [
+        "Radical prostatectomy (surgical removal)",
+        "Radiation therapy",
+        "Watchful waiting for early-stage cancers"
+      ]
+    },
+    {
+      "name": "Colorectal Cancer",
+      "description": "Cancer that begins in the colon or rectum, often linked to lifestyle factors and family history.",
+      "precautions": [
+        "Consume a fiber-rich diet",
+        "Limit red meat and processed foods",
+        "Undergo regular colonoscopies after age 45"
+      ],
+      "medications": ["Chemotherapy", "Targeted therapies", "Immunotherapy"],
+      "treatment_options": [
+        "Surgical resection of the tumor",
+        "Radiation therapy",
+        "Chemotherapy for advanced stages"
+      ]
+    },
+    {
+      "name": "Liver Cancer",
+      "description": "Cancer that starts in the liver, often associated with chronic liver diseases like cirrhosis or hepatitis.",
+      "precautions": [
+        "Avoid excessive alcohol consumption",
+        "Get vaccinated against hepatitis B",
+        "Regular monitoring of liver health if at risk"
+      ],
+      "medications": ["Chemotherapy", "Targeted therapy", "Immunotherapy"],
+      "treatment_options": [
+        "Liver transplant in advanced cases",
+        "Surgical removal of tumors",
+        "Ablation therapies"
+      ]
+    },
+    {
+      "name": "Endometriosis",
+      "description": "A condition where tissue similar to the lining of the uterus grows outside it, causing pain and fertility issues.",
+      "precautions": [
+        "Track menstrual cycles for symptoms",
+        "Maintain a balanced diet rich in anti-inflammatory foods",
+        "Manage stress levels"
+      ],
+      "medications": ["Hormonal therapy", "Pain relievers (NSAIDs)"],
+      "treatment_options": [
+        "Surgical removal of endometrial tissue",
+        "Laparoscopic surgery",
+        "Fertility treatments for women struggling with conception"
+      ]
+    },
+    {
+      "name": "Skin Cancer",
+      "description": "A type of cancer that forms in the skin cells, most often due to excessive UV radiation exposure.",
+      "precautions": [
+        "Wear sunscreen with high SPF",
+        "Avoid prolonged sun exposure",
+        "Get regular skin check-ups"
+      ],
+      "medications": [
+        "Topical chemotherapy",
+        "Immunotherapy",
+        "Targeted therapies"
+      ],
+      "treatment_options": [
+        "Surgical excision of tumors",
+        "Cryotherapy (freezing off cancerous tissue)",
+        "Radiation therapy"
+      ]
+    },
+    {
+      "name": "Ovarian Cancer",
+      "description": "Cancer that begins in the ovaries, often diagnosed in advanced stages.",
+      "precautions": [
+        "Monitor for symptoms like bloating, pelvic pain",
+        "Consider genetic counseling if family history is strong",
+        "Undergo regular pelvic exams"
+      ],
+      "medications": ["Chemotherapy", "Targeted therapy", "Hormone therapy"],
+      "treatment_options": [
+        "Surgical removal of ovaries and surrounding tissue",
+        "Chemotherapy post-surgery",
+        "Targeted therapy for advanced cases"
+      ]
+    },
+    {
+      "name": "Stomach Pain",
+      "description": "Discomfort or pain felt in the abdominal area caused by various conditions.",
+      "precautions": [
+        "Avoid overeating or consuming spicy foods",
+        "Stay hydrated",
+        "Consult a doctor if persistent"
+      ],
+      "medications": ["Antacids", "Pain relievers (as prescribed)"],
+      "treatment_options": [
+        "Diet modification",
+        "Treatment of underlying cause"
+      ]
+    },
+    {
+      "name": "Cough",
+      "description": "A reflex action to clear the throat or airways of mucus or irritants.",
+      "precautions": [
+        "Avoid allergens and pollutants",
+        "Stay hydrated",
+        "Use a humidifier"
+      ],
+      "medications": ["Cough syrups", "Antihistamines"],
+      "treatment_options": [
+        "Steam inhalation",
+        "Addressing underlying infections"
+      ]
+    },
+    {
+      "name": "Ear Pain",
+      "description": "Pain in the ear caused by infections, pressure changes, or injuries.",
+      "precautions": [
+        "Avoid inserting objects into the ear",
+        "Protect ears from cold and water",
+        "Consult a doctor for persistent pain"
+      ],
+      "medications": ["Pain relievers", "Antibiotics for infections"],
+      "treatment_options": [
+        "Ear drops",
+        "Surgical intervention for severe cases"
+      ]
+    },
+    {
+      "name": "Eye Pain",
+      "description": "Discomfort or pain in or around the eyes due to strain, injury, or infections.",
+      "precautions": [
+        "Avoid prolonged screen exposure",
+        "Wear protective eyewear in harsh environments",
+        "Use artificial tears for dryness"
+      ],
+      "medications": ["Eye drops", "Pain relievers"],
+      "treatment_options": ["Treatment of underlying conditions", "Rest"]
+    },
+    {
+      "name": "Leg Pain",
+      "description": "Pain in the legs caused by injury, strain, or underlying medical conditions.",
+      "precautions": [
+        "Avoid overexertion",
+        "Maintain proper posture",
+        "Perform regular leg stretches"
+      ],
+      "medications": ["Pain relievers", "Muscle relaxants"],
+      "treatment_options": [
+        "Physical therapy",
+        "Treatment for underlying causes"
+      ]
+    },
+    {
+      "name": "High Pulse",
+      "description": "An abnormally fast heart rate caused by stress, dehydration, or medical conditions.",
+      "precautions": [
+        "Avoid caffeine and stimulants",
+        "Practice relaxation techniques",
+        "Stay hydrated"
+      ],
+      "medications": ["Beta blockers", "Calcium channel blockers"],
+      "treatment_options": ["Lifestyle modification", "Treat underlying causes"]
+    },
+    {
+      "name": "Pneumonia",
+      "description": "Infection that inflames the air sacs in the lungs, potentially filling them with fluid.",
+      "precautions": [
+        "Get vaccinated",
+        "Avoid smoking",
+        "Maintain good hygiene"
+      ],
+      "medications": ["Antibiotics", "Antiviral medications"],
+      "treatment_options": ["Oxygen therapy", "Hospitalization in severe cases"]
+    },
+    {
+      "name": "Hand Pain",
+      "description": "Pain in the hands caused by strain, arthritis, or injury.",
+      "precautions": [
+        "Avoid repetitive strain",
+        "Use ergonomic tools",
+        "Apply cold or warm compresses"
+      ],
+      "medications": ["Pain relievers", "Topical creams"],
+      "treatment_options": [
+        "Physical therapy",
+        "Treatment for underlying conditions"
+      ]
+    },
+    {
+      "name": "Motions",
+      "description": "Frequent bowel movements often caused by infections, food intolerances, or stress.",
+      "precautions": [
+        "Stay hydrated",
+        "Avoid fatty or spicy foods",
+        "Practice good food hygiene"
+      ],
+      "medications": ["Oral rehydration salts (ORS)", "Antidiarrheal drugs"],
+      "treatment_options": ["Diet modification", "Address underlying causes"]
+    },
+    {
+      "name": "Vomiting",
+      "description": "The expulsion of stomach contents through the mouth caused by infections, motion sickness, or other factors.",
+      "precautions": ["Avoid overeating", "Stay hydrated", "Rest after meals"],
+      "medications": ["Antiemetic drugs", "ORS for dehydration"],
+      "treatment_options": ["Address underlying conditions", "Diet adjustments"]
+    },
+    {
+      "name": "Back Pain",
+      "description": "Pain in the back caused by strain, poor posture, or underlying medical conditions.",
+      "precautions": [
+        "Maintain proper posture",
+        "Avoid lifting heavy objects incorrectly",
+        "Exercise regularly"
+      ],
+      "medications": ["Pain relievers", "Muscle relaxants"],
+      "treatment_options": ["Physical therapy", "Surgery in severe cases"]
+    },
+    {
+      "name": "Headache",
+      "description": "Pain in the head caused by stress, dehydration, or medical conditions.",
+      "precautions": [
+        "Stay hydrated",
+        "Avoid triggers such as loud noise or bright lights",
+        "Get adequate sleep"
+      ],
+      "medications": ["Pain relievers", "Migraine medications"],
+      "treatment_options": [
+        "Stress management",
+        "Treatment of underlying causes"
+      ]
+    },
+    {
+      "name": "Periods Pain",
+      "description": "Painful cramps during menstruation caused by hormonal changes or medical conditions.",
+      "precautions": [
+        "Apply heat to the lower abdomen",
+        "Maintain a balanced diet",
+        "Stay hydrated"
+      ],
+      "medications": ["NSAIDs", "Hormonal birth control pills"],
+      "treatment_options": [
+        "Lifestyle changes",
+        "Treatment of underlying causes"
+      ]
+    },
+    {
+      "name": "Infections",
+      "description": "Illness caused by harmful microorganisms such as bacteria, viruses, or fungi.",
+      "precautions": [
+        "Practice good hygiene",
+        "Get vaccinated",
+        "Avoid contact with infected individuals"
+      ],
+      "medications": ["Antibiotics", "Antiviral drugs"],
+      "treatment_options": [
+        "Rest and hydration",
+        "Specific treatments for the infection"
+      ]
+    },
+    {
+      "name": "Blood Pressure",
+      "description": "Abnormal blood pressure levels, either high (hypertension) or low (hypotension).",
+      "precautions": [
+        "Maintain a balanced diet low in sodium",
+        "Exercise regularly",
+        "Avoid stress"
+      ],
+      "medications": ["Antihypertensives", "Diuretics"],
+      "treatment_options": ["Lifestyle modifications", "Regular monitoring"]
+    },
+    {
+      "name": "Sugar",
+      "description": "A chronic condition that affects the body's ability to regulate blood sugar levels.",
+      "precautions": [
+        "Follow a healthy diet",
+        "Exercise regularly",
+        "Monitor blood glucose levels"
+      ],
+      "medications": ["Insulin", "Oral diabetes medications"],
+      "treatment_options": ["Lifestyle management", "Regular medical checkups"]
+    },
+    {
+      "name": "Thyroid",
+      "description": "Conditions affecting the thyroid gland, such as hypothyroidism or hyperthyroidism.",
+      "precautions": [
+        "Maintain a balanced diet with adequate iodine",
+        "Monitor thyroid levels regularly",
+        "Follow prescribed medications"
+      ],
+      "medications": ["Levothyroxine", "Antithyroid drugs"],
+      "treatment_options": [
+        "Medication management",
+        "Surgical intervention if necessary"
+      ]
+    },
+    {
+      "name": "Viral Fever",
+      "description": "A fever caused by viral infections such as influenza or the common cold.",
+      "precautions": [
+        "Stay hydrated",
+        "Rest adequately",
+        "Take over-the-counter medications like acetaminophen"
+      ],
+      "medications": ["Antipyretics", "Decongestants (if needed)"],
+      "treatment_options": ["Supportive care to manage symptoms"]
+    },
+    {
+      "name": "Typhoid Fever",
+      "description": "A bacterial infection caused by Salmonella typhi.",
+      "precautions": [
+        "Drink clean and boiled water",
+        "Avoid uncooked food",
+        "Maintain good hygiene"
+      ],
+      "medications": ["Antibiotics like ciprofloxacin", "Azithromycin"],
+      "treatment_options": ["Hospitalization in severe cases"]
+    },
+    {
+      "name": "Dengue Fever",
+      "description": "A mosquito-borne viral infection causing high fever and joint pain.",
+      "precautions": [
+        "Use mosquito nets and repellents",
+        "Eliminate stagnant water",
+        "Wear protective clothing"
+      ],
+      "medications": ["Paracetamol for fever", "IV fluids (if needed)"],
+      "treatment_options": ["Symptomatic treatment and platelet monitoring"]
+    },
+    {
+      "name": "Malaria",
+      "description": "A mosquito-borne disease caused by Plasmodium parasites.",
+      "precautions": [
+        "Use mosquito repellents",
+        "Sleep under insecticide-treated nets",
+        "Take prophylactic antimalarial drugs if traveling to endemic areas"
+      ],
+      "medications": ["Chloroquine", "Artemisinin-based combination therapies"],
+      "treatment_options": ["Hospitalization in severe cases"]
+    },
+    {
+      "name": "Yellow Fever",
+      "description": "A viral infection transmitted by mosquitoes, often causing jaundice.",
+      "precautions": [
+        "Vaccination before traveling to endemic areas",
+        "Use insect repellents",
+        "Avoid mosquito bites"
+      ],
+      "medications": ["Supportive care"],
+      "treatment_options": ["Symptomatic treatment"]
+    },
+    {
+      "name": "Rheumatic Fever",
+      "description": "An inflammatory disease that develops as a complication of untreated strep throat.",
+      "precautions": [
+        "Treat strep throat promptly",
+        "Complete the full course of antibiotics",
+        "Regular follow-ups if previously affected"
+      ],
+      "medications": ["Aspirin", "Antibiotics"],
+      "treatment_options": ["Long-term prophylaxis with antibiotics"]
+    },
+    {
+      "name": "Scarlet Fever",
+      "description": "A bacterial infection causing a red rash and high fever.",
+      "precautions": [
+        "Avoid contact with infected individuals",
+        "Maintain hygiene",
+        "Seek treatment for sore throat"
+      ],
+      "medications": ["Penicillin", "Amoxicillin"],
+      "treatment_options": ["Antibiotic therapy to prevent complications"]
+    },
+    {
+      "name": "Q Fever",
+      "description": "A bacterial infection caused by Coxiella burnetii, often transmitted by animals.",
+      "precautions": [
+        "Avoid contact with livestock",
+        "Ensure proper sanitation in animal environments",
+        "Pasteurize milk"
+      ],
+      "medications": ["Doxycycline"],
+      "treatment_options": ["Antibiotic therapy"]
+    },
+    {
+      "name": "Rocky Mountain Spotted Fever",
+      "description": "A tick-borne bacterial infection causing high fever and rash.",
+      "precautions": [
+        "Use tick repellents",
+        "Check for ticks after outdoor activities",
+        "Wear long sleeves and pants"
+      ],
+      "medications": ["Doxycycline"],
+      "treatment_options": ["Early treatment to prevent complications"]
+    },
+    {
+      "name": "Relapsing Fever",
+      "description": "A bacterial infection causing recurring episodes of fever.",
+      "precautions": [
+        "Avoid exposure to lice and ticks",
+        "Practice good hygiene",
+        "Wear protective clothing"
+      ],
+      "medications": ["Tetracycline", "Doxycycline"],
+      "treatment_options": ["Antibiotic therapy"]
+    },
+    {
+      "name": "Lassa Fever",
+      "description": "A viral hemorrhagic fever transmitted by rodents.",
+      "precautions": [
+        "Avoid contact with rats",
+        "Store food in rodent-proof containers",
+        "Maintain cleanliness in living areas"
+      ],
+      "medications": ["Ribavirin"],
+      "treatment_options": ["Supportive care and antiviral medication"]
+    },
+    {
+      "name": "Hemorrhagic Fever",
+      "description": "A group of illnesses caused by viruses like Ebola, leading to fever and bleeding.",
+      "precautions": [
+        "Avoid contact with infected individuals",
+        "Practice proper hand hygiene",
+        "Wear protective clothing"
+      ],
+      "medications": ["Supportive care"],
+      "treatment_options": ["Isolation and intensive supportive care"]
+    },
+    {
+      "name": "Intermittent Fever",
+      "description": "A fever that alternates between normal and high temperatures.",
+      "precautions": [
+        "Seek medical diagnosis for underlying conditions",
+        "Stay hydrated",
+        "Monitor temperature changes"
+      ],
+      "medications": ["Depends on underlying cause"],
+      "treatment_options": ["Addressing root causes like infections or malaria"]
+    },
+    {
+      "name": "Continuous Fever",
+      "description": "A persistently high fever over 24 hours, commonly seen in typhoid fever.",
+      "precautions": [
+        "Seek immediate medical attention",
+        "Avoid dehydration",
+        "Maintain proper hygiene"
+      ],
+      "medications": ["Depends on underlying cause"],
+      "treatment_options": ["Supportive care or antibiotics if bacterial"]
+    },
+    {
+      "name": "Pel-Ebstein Fever",
+      "description": "A cyclic fever pattern associated with Hodgkin's lymphoma.",
+      "precautions": [
+        "Regular monitoring for fever patterns",
+        "Seek oncological evaluation if suspected",
+        "Follow up on any other associated symptoms"
+      ],
+      "medications": ["Depends on lymphoma treatment"],
+      "treatment_options": ["Cancer-specific therapies like chemotherapy"]
+    },
+    {
+      "name": "Bladder Cancer",
+      "description": "Cancer that starts in the cells of the bladder, often linked to smoking or exposure to chemicals.",
+      "precautions": [
+        "Quit smoking",
+        "Avoid exposure to carcinogens in the workplace",
+        "Drink plenty of fluids to help flush the bladder"
+      ],
+      "medications": ["Chemotherapy", "Immunotherapy", "Targeted therapy"],
+      "treatment_options": [
+        "Surgical removal of the tumor",
+        "Bladder removal (cystectomy) for advanced cases",
+        "Intravesical therapy (medicine delivered directly into the bladder)"
+      ]
+    }
+  ],
+  "greetings": {
+    "good morning": "Good morning! How can I assist you today?",
+    "hello": "Hello! How can I help you?",
+    "good night": "Good night! Take care.",
+    "good afternoon": "Good afternoon! How can I assist you?"
+  }
+}

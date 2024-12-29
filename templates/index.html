@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disease Information Finder</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .chat-container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+      }
+      .chat-history {
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        max-height: 300px;
+        overflow-y: auto;
+      }
+      .chat-history div {
+        margin-bottom: 10px;
+      }
+      .user-message {
+        color: blue;
+      }
+      .bot-message {
+        color: green;
+      }
+      .input-container {
+        display: flex;
+        margin-top: 20px;
+      }
+      .input-container input {
+        width: 80%;
+        padding: 10px;
+        font-size: 14px;
+      }
+      .input-container button {
+        width: 15%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      .input-container button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="chat-container">
+      <h2>Disease Information Finder</h2>
+      <div class="chat-history" id="chat-history">
+        {% for message in chat_history %}
+        <div class="{{ message['role'] }}-message">
+          <strong>{{ message['role'].capitalize() }}:</strong> {{
+          message['message'] }}
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="input-container">
+        <input
+          type="text"
+          id="user-message"
+          placeholder="Type your message here..."
+        />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+
+    <script>
+      function sendMessage() {
+        var userMessage = document.getElementById("user-message").value;
+        if (!userMessage) return;
+
+        // Append user message to the chat history
+        var chatHistory = document.getElementById("chat-history");
+        var userMessageDiv = document.createElement("div");
+        userMessageDiv.classList.add("user-message");
+        userMessageDiv.innerHTML = "<strong>User:</strong> " + userMessage;
+        chatHistory.appendChild(userMessageDiv);
+
+        // Clear input field
+        document.getElementById("user-message").value = "";
+
+        // Send the user message to the Flask backend
+        fetch("/ask", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          body: "user_message=" + encodeURIComponent(userMessage),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            // Display the bot's response
+            var botMessageDiv = document.createElement("div");
+            botMessageDiv.classList.add("bot-message");
+            botMessageDiv.innerHTML =
+              "<strong>Bot:</strong> " + data.bot_response;
+            chatHistory.appendChild(botMessageDiv);
+
+            // Scroll to the bottom of the chat
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+          });
+      }
+    </script>
+  </body>
+</html>
