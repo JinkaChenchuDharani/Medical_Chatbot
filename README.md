@@ -74,6 +74,7 @@ Step 5: Evaluate the Model
 Test the fine-tuned model for performance and accuracy. Run the following command:
 
 python evaluate_model.py
+
 Step 6: Start the Flask Application
 Launch the user interface to interact with the chatbot. Run the following command:
 
