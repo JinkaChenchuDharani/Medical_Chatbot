@@ -55,12 +55,11 @@ git clone https://github.com/your-username/medical-chatbot.git
 cd medical-chatbot
 
 Step 2: Install Required Libraries
-Install the Python dependencies listed in requirements.txt.
+Install the Python dependencies 
 
-pip install -r requirements.txt
+
 Step 3: Prepare the Dataset
 Convert the raw JSON data into CSV format for training the model. Run the following command:
-
 
 python preprocess_data.py
 This will generate a file named processed_data.csv.
